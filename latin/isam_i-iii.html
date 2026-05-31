@@ -1,6 +1,4 @@
-<!--
 
--->
 <!DOCTYPE html>
 <html lang="la">
 <head>
@@ -10,104 +8,23 @@
     <title>I Samuel - Caput I (Pagnini et Clementina)</title>
 
     <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/ly-layouts.css">
+    <link rel="stylesheet" href="../css/ts-text-styles.css">
+    <link rel="stylesheet" href="../css/vc-vocabulary.css">    
+    
+<!--     <link rel="stylesheet" href="../css/grid.css">         -->
     <link rel="stylesheet" href="../css/selectors.css">
+    <link rel="stylesheet" href="../css/titles.css">    
 
     <style>
 
-        .document-wrapper {
-            max-width: 1100px;
-            margin: 0 auto;
-            border: 1px solid rgba(0,0,0,0.05);
-            padding: 40px;
-            box-shadow: 0 0 30px rgba(0,0,0,0.03);
-        }
-
-        .caput-title {
-            font-style: italic;
-            font-size: 1.4rem;
-            border-top: 1px solid var(--border-ink);
-            display: inline-block;
-            padding: 10px 40px;
-            margin-top: 10px;
-        }
-
-        /* Grid principal */
-
-        .biblia-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 60px;
-        }
-
-        .label-version {
-            font-weight: bold;
-            text-align: center;
-            color: var(--accent-red);
-            font-variant: small-caps;
-            letter-spacing: 1.5px;
-            padding-bottom: 20px;
-            border-bottom: 1px double var(--accent-red);
-            margin-bottom: 30px;
-        }
-
-        .label-version-c {
-            font-weight: bold;
-            text-align: center;
-            color: var(--accent-red);
-            font-variant: small-caps;
-            letter-spacing: 1.5px;
-        }
-
-        /* Estilo de los versículos */
-
-        .v-box {
-            font-size: 1.15rem;
-            text-align: justify;
-            margin-bottom: 5px;
-        }
-
-        .v-box-c {
-            grid-column: 1 / span 2;
-            margin: 10px 10% 10px 10%;
-            padding: 0px 20px;
-            font-size: 0.15rem;
-            font-style: italic;
-            color: #444;
-        }
-
-        .clementina { font-weight: 400; color: #000; }
-        .pagnini { font-style: italic; color: #444; }
-
-        .v-num {
-            color: var(--accent-red);
-            font-weight: bold;
-            font-size: 0.9rem;
-            margin-right: 10px;
-        }
+    *{
+        box-sizing: border-box;
+    }    
+    
 
         /* Bloque de Notas y Aparato Crítico */
 
-        .aparato-critico {
-            grid-column: 1 / span 2;
-            margin: 10px 10% 10px 10%;
-            padding: 0px 20px;
-            background-color: rgba(255, 255, 255, 0.4);
-            border-left: 2px solid var(--accent-red);
-            font-size: 0.95rem;
-        }
-
-        .selected_word{
-            color: var(--accent-red);
-/*           font-variant:small-caps; */
-        }
-
-        .my-items {
-            list-style-type: disc; /* circle, square, none */
-        }
-
-        .my-items li {
-            margin: 5px 0;
-        }
 
         .nota-item { margin-bottom: 8px; }
         .tag-nova { color: var(--accent-red); font-weight: bold; font-variant:
@@ -116,29 +33,35 @@
 
         /* Ajuste para móviles */
 /*        @media (max-width: 800px) {
-            .biblia-grid { grid-template-columns: 1fr; }
+            .grid-2c { grid-template-columns: 1fr; }
             .aparato-critico { grid-column: 1; margin: 10px 0 40px 0; }
         }*/
 
+        
     </style>
 
-    <link rel="stylesheet" href="../css/vocabulary.css">
+
 
 </head>
 <body>
 
 <hr>
 
+<div class="ly-container-document">    
+
     <header>
-        <h1>Versiones latinas
+    
+        <h1 class="title-main-1">Versiones latinas
         de los capítulos I, II y II <br>del Primer Libro de Samuel</h1>
-        <h2>Origen y vocación del profeta Samuel</h2>
-        <h3>por el bachiller Rubén Arquiel - 2026</h3>
+        
+        <h2 class="title-sub-1">Origen y vocación del profeta Samuel</h2>
+        
+        <h3 class="title-author-1">Rubén Arquiel - 2026</h3>
+        
     </header>
 
-<div class="document-wrapper">    
     
-<h3>Este trabajo</h3>
+    <h3 class="title-section-1">Este trabajo</h3>
 
     <p>El propósito de este trabajo es realizar una lectura comparativa de varias traducciones latinas de los primeros
     tres capítulos del primer libro de Samuel.</p>
@@ -279,98 +202,98 @@
     <p>
     <h4>Capítulo I : </h4>
         La familia de Elcana:
-            <a href="#v1.1">[1]</a>, <a href="#v1.2">[2]</a>,
-            <a href="#v1.3">[3]</a>, <a href="#v1.4">[4]</a>,
-            <a href="#v1.5">[5]</a>, <a href="#v1.6">[6]</a>,
-            <a href="#v1.7">[7]</a>, <a href="#v1.8">[8]</a>.
+            <a href="#Id_1.1">[1]</a>, <a href="#Id_1.2">[2]</a>,
+            <a href="#Id_1.3">[3]</a>, <a href="#Id_1.4">[4]</a>,
+            <a href="#Id_1.5">[5]</a>, <a href="#Id_1.6">[6]</a>,
+            <a href="#Id_1.7">[7]</a>, <a href="#Id_1.8">[8]</a>.
         Oración y voto de Ana:
-            <a href="#v1.9">[9]</a>, <a href="#v1.10">[10]</a>,
-            <a href="#v1.11">[11]</a>, <a href="#v1.12">[12]</a>,
-            <a href="#v1.13">[13]</a>, <a href="#v1.14">[14]</a>,
-            <a href="#v1.15">[15]</a>, <a href="#v1.16">[16]</a>,
-            <a href="#v1.17">[17]</a>, <a href="#v1.18">[18]</a>.
+            <a href="#Id_1.9">[9]</a>, <a href="#Id_1.10">[10]</a>,
+            <a href="#Id_1.11">[11]</a>, <a href="#Id_1.12">[12]</a>,
+            <a href="#Id_1.13">[13]</a>, <a href="#Id_1.14">[14]</a>,
+            <a href="#Id_1.15">[15]</a>, <a href="#Id_1.16">[16]</a>,
+            <a href="#Id_1.17">[17]</a>, <a href="#Id_1.18">[18]</a>.
         Nacimiento de Samuel:
-            <a href="#v1.19">[19]</a>, <a href="#v1.20">[20]</a>,
-            <a href="#v1.21">[21]</a>, <a href="#v1.22">[22]</a>,
-            <a href="#v1.23">[23]</a>;
+            <a href="#Id_1.19">[19]</a>, <a href="#Id_1.20">[20]</a>,
+            <a href="#Id_1.21">[21]</a>, <a href="#Id_1.22">[22]</a>,
+            <a href="#Id_1.23">[23]</a>;
         Presentación de Samuel en Silo:
-            <a href="#v1.24">[24]</a>,
-            <a href="#v1.25">[25]</a>, <a href="#v1.26">[26]</a>,
-            <a href="#v1.27">[27]</a>, <a href="#v1.28">[28]</a>.
+            <a href="#Id_1.24">[24]</a>,
+            <a href="#Id_1.25">[25]</a>, <a href="#Id_1.26">[26]</a>,
+            <a href="#Id_1.27">[27]</a>, <a href="#Id_1.28">[28]</a>.
 
     </p>
 
     <p>
         <h4>Capítulo II :</h4>
         Cántico de Ana:
-            <a href="#v2.1">[1]</a>,
-            <a href="#v2.2">[2]</a>,
-            <a href="#v2.3">[3]</a>,
-            <a href="#v2.4">[4]</a>,
-            <a href="#v2.5">[5]</a>,
-            <a href="#v2.6">[6]</a>,
-            <a href="#v2.7">[7]</a>,
-            <a href="#v2.8">[8]</a>,
-            <a href="#v2.9">[9]</a>,
-            <a href="#v2.10">[10]</a>.
+            <a href="#Id_2.1">[1]</a>,
+            <a href="#Id_2.2">[2]</a>,
+            <a href="#Id_2.3">[3]</a>,
+            <a href="#Id_2.4">[4]</a>,
+            <a href="#Id_2.5">[5]</a>,
+            <a href="#Id_2.6">[6]</a>,
+            <a href="#Id_2.7">[7]</a>,
+            <a href="#Id_2.8">[8]</a>,
+            <a href="#Id_2.9">[9]</a>,
+            <a href="#Id_2.10">[10]</a>.
         Contraste entre Samuel y los hijos de Elí:
-            <a href="#v2.11">[11]</a>,
-            <a href="#v2.12">[12]</a>,
-            <a href="#v2.13">[13]</a>,
-            <a href="#v2.14">[14]</a>,
-            <a href="#v2.15">[15]</a>,
-            <a href="#v2.16">[16]</a>,
-            <a href="#v2.17">[17]</a>.
+            <a href="#Id_2.11">[11]</a>,
+            <a href="#Id_2.12">[12]</a>,
+            <a href="#Id_2.13">[13]</a>,
+            <a href="#Id_2.14">[14]</a>,
+            <a href="#Id_2.15">[15]</a>,
+            <a href="#Id_2.16">[16]</a>,
+            <a href="#Id_2.17">[17]</a>.
         Samuel crece en su ministerio y Ana es nuevamente bendecida:
-            <a href="#v2.18">[18]</a>,
-            <a href="#v2.19">[19]</a>,
-            <a href="#v2.20">[20]</a>,
-            <a href="#v2.21">[21]</a>.
+            <a href="#Id_2.18">[18]</a>,
+            <a href="#Id_2.19">[19]</a>,
+            <a href="#Id_2.20">[20]</a>,
+            <a href="#Id_2.21">[21]</a>.
         Elí reprende a sus hijos:
-            <a href="#v2.22">[22]</a>,
-            <a href="#v2.23">[23]</a>,
-            <a href="#v2.24">[24]</a>,
-            <a href="#v2.25">[25]</a>.
+            <a href="#Id_2.22">[22]</a>,
+            <a href="#Id_2.23">[23]</a>,
+            <a href="#Id_2.24">[24]</a>,
+            <a href="#Id_2.25">[25]</a>.
         Samuel crece y es grato ante Dios:
-            <a href="#v2.26">[26]</a>.
+            <a href="#Id_2.26">[26]</a>.
         Juicio contra la casa de Elí:
-            <a href="#v2.27">[27]</a>,
-            <a href="#v2.28">[28]</a>,
-            <a href="#v2.29">[29]</a>,
-            <a href="#v2.30">[30]</a>,
-            <a href="#v2.31">[31]</a>,
-            <a href="#v2.32">[32]</a>,
-            <a href="#v2.33">[33]</a>,
-            <a href="#v2.34">[34]</a>,
-            <a href="#v2.35">[35]</a>,
-            <a href="#v2.36">[36]</a>.
+            <a href="#Id_2.27">[27]</a>,
+            <a href="#Id_2.28">[28]</a>,
+            <a href="#Id_2.29">[29]</a>,
+            <a href="#Id_2.30">[30]</a>,
+            <a href="#Id_2.31">[31]</a>,
+            <a href="#Id_2.32">[32]</a>,
+            <a href="#Id_2.33">[33]</a>,
+            <a href="#Id_2.34">[34]</a>,
+            <a href="#Id_2.35">[35]</a>,
+            <a href="#Id_2.36">[36]</a>.
 
     </p>
 
     <p>
         <h4>Capítulo III :</h4>
         Dios llama a Samuel:
-            <a href="#v3.1">[1]</a>,
-            <a href="#v3.2">[2]</a>,
-            <a href="#v3.3">[3]</a>,
-            <a href="#v3.4">[4]</a>,
-            <a href="#v3.5">[5]</a>,
-            <a href="#v3.6">[6]</a>,
-            <a href="#v3.7">[7]</a>,
-            <a href="#v3.8">[8]</a>,
-            <a href="#v3.9">[9]</a>,
-            <a href="#v3.10">[10]</a>,
-            <a href="#v3.11">[11]</a>,
-            <a href="#v3.12">[12]</a>,
-            <a href="#v3.13">[13]</a>,
-            <a href="#v3.14">[14]</a>,
-            <a href="#v3.15">[15]</a>,
-            <a href="#v3.16">[16]</a>,
-            <a href="#v3.17">[17]</a>,
-            <a href="#v3.18">[18]</a>,
-            <a href="#v3.19">[19]</a>,
-            <a href="#v3.20">[20]</a>,
-            <a href="#v3.21">[21]</a>.
+            <a href="#Id_3.1">[1]</a>,
+            <a href="#Id_3.2">[2]</a>,
+            <a href="#Id_3.3">[3]</a>,
+            <a href="#Id_3.4">[4]</a>,
+            <a href="#Id_3.5">[5]</a>,
+            <a href="#Id_3.6">[6]</a>,
+            <a href="#Id_3.7">[7]</a>,
+            <a href="#Id_3.8">[8]</a>,
+            <a href="#Id_3.9">[9]</a>,
+            <a href="#Id_3.10">[10]</a>,
+            <a href="#Id_3.11">[11]</a>,
+            <a href="#Id_3.12">[12]</a>,
+            <a href="#Id_3.13">[13]</a>,
+            <a href="#Id_3.14">[14]</a>,
+            <a href="#Id_3.15">[15]</a>,
+            <a href="#Id_3.16">[16]</a>,
+            <a href="#Id_3.17">[17]</a>,
+            <a href="#Id_3.18">[18]</a>,
+            <a href="#Id_3.19">[19]</a>,
+            <a href="#Id_3.20">[20]</a>,
+            <a href="#Id_3.21">[21]</a>.
 
     </p>
 
@@ -382,63 +305,64 @@
         <div class="caput-title">Caput I</div>
     </header>
 
-    <div class="biblia-grid">
-        <div class="label-version"><i>Clementina editio</i></div>
-        <div class="label-version">S. Pagnini</div>
+    <div class="ly-grid-2c">
+    
+        <div class="ts-label ts-label-underline"><i>Vulgata Clementina Editio</i></div>
+        <div class="ts-label ts-label-underline">S. Pagnini</div>
 
 <!-- 1.1  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.1">1.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.1">1.</a></span>
             Fuit vir unus de Ramathaim-Sophim, de monte Ephraim, et nomen eius
             Elcana, filius Ieroham, filii Eliu, filii Thohu, filii Suph,
             Ephrateus.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et fuit vir unus de Ramathaim Sophim de
             monte Ephraim, et nomen eius Elcanah
             filius Ierocham filii Elihu, filii Tochu, filii
             Zuph Ephrataei.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
 
-                <span class="tag-nova">Vetus Latina:</span>
+                <span class="ts-label">Vetus Latina:</span>
                     Fuir vir de Arath, et
                     nomen eius Elcana, filius
                     Hieremiel, filius Helii, filius Ozi,
                     de monte Ephraim.<br>
 
-                 <span class="tag-nova">Codex Amiatianus:</span> <!-- p. 440 -->
+                 <span class="ts-label">Codex Amiatianus:</span> <!-- p. 440 -->
                  <i>... hieroam ... heliu ... thau</i> : otra transliteración.<br>
 
-                 <span class="tag-nova">Gutenberg:</span> <!-- p. 440 -->
+                 <span class="ts-label">Gutenberg:</span> <!-- p. 440 -->
                  <i>... helchana ... iheroboam ... heliu ... thau</i> : otra transliteración.<br>
             </div>
 
         </div>
 
-        <div class="aparato-critico">
-            <span class="tag-nova">Septuaginta Romana:</span>
+        <div class="ly-grid-one-column ts-apparatus">
+            <span class="ts-label">Septuaginta Romana:</span>
             Homo fuit de Armathaem Sipha, de monte Ephraem,
             et nomen ei Elcana filius Ieremeel filii Thoce
             in Nasib Ephraem.
 
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
 
             <div class="nota-item">
-                <span class="label-version-c">Castellion:</span>
+                <span class="ts-label">Castellion:</span>
                     Fuit vir quidam a Ramatha Sophorum, quae est in monte
                     Ephraimitarum, nomine Elcana, filius Jerohami, filii Elii,
                     filii Thobi, filii Suphi, Ephrathaeus.<br>
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Tremellius:</span>
+                <span class="ts-label">Tremellius:</span>
                     Erat autem vir quidam e
                     duplici Rama Tzophaeorum,
                     e monte Ephrajimi, cujus
@@ -448,18 +372,18 @@
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Munster:</span>
+                <span class="ts-label">Munster:</span>
                 <br>
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Schmidth:</span>
+                <span class="ts-label">Schmidth:</span>
                 <br>
             </div>
 
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
                   <span class="tag-comment">Nota 1:</span>
 
@@ -477,51 +401,51 @@
             </div>
         </div>
 
-    </div>
+
 
 <!-- 1.2 -->
 
-    <div class="biblia-grid">
+<!--     <div class="ly-grid-2c"> -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.2">2.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.2">2.</a></span>
             Et habuit duas uxores, nomen uni Anna, et nomen secundae Phenenna.
             Fueruntque Phenennae filii, Annae autem non erant liberi.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et ei fuerunt ei duae uxores, nomen unius
             Channah, et nomem alterius Peninnah : et fuerunt
             ipsi Penninah nati, sed Channah non fuerunt
             nati.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana:</span>
+                <span class="ts-label">Septuaginta Romana:</span>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-            <span class="tag-nova">Gutenberg:</span>
+            <span class="ts-label">Gutenberg:</span>
                  ... fennenna...: otra transliteración.<br>
-            <span class="tag-nova">Nova Vulgata:</span>
+            <span class="ts-label">Nova Vulgata:</span>
                 "...Annae autem non erant liberi."
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
 
             <div class="nota-item">
-                <span class="label-version-c">Castellion:</span>
+                <span class="ts-label">Castellion:</span>
                     Is duas habebat uxores, alteram nomine Annam, alteram
                     Phenennam. Phenenna liberos habebat, Anna non habebat.
                 <br>
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Tremellius:</span>
+                <span class="ts-label">Tremellius:</span>
                     Et erant ei duae uxores, nomen unius
                     Channa, nomen vero alterius Peninna:
                     eranque Peninnae nati, Channae vero non
@@ -530,12 +454,12 @@
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Munster:</span>
+                <span class="ts-label">Munster:</span>
                 <br>
             </div>
 
             <div class="nota-item">
-                <span class="label-version-c">Schmidth:</span>
+                <span class="ts-label">Schmidth:</span>
                 <br>
             </div>
 
@@ -545,58 +469,58 @@
 
 <!-- 1.3 -->
 
-    <div class="biblia-grid">
-            <!-- Versículo 3 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.3">3.</a></span>
+    <div class="ly-grid-2c">
+
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.3">3.</a></span>
             Et ascendebat vir ille de civitate sua statutis diebus, ut adoraret
             et sacrificaret Domino exercituum in Silo. Erant autem ibi duo
             filii Heli, Ophni et Phinees, sacerdotes Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ascendebat autem vir ipse è ciuitate sua annuatim
             ad adorandum, et immolandum Domino
             exercituum in Siloh, et ibi erant duo filii Heli, Chopni, et
             Pinchas sacerdotes Domino.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana: </span>
+                <span class="ts-label">Septuaginta Romana: </span>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     <i>... Finees ...</i> : otra transliteración.<br>
-                <span class="tag-nova">Nova Vulgata:</span>
+                <span class="ts-label">Nova Vulgata:</span>
                     «de civitate sua <it>singulis annis</it><br>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Is homo quotannis Siluntem ex patria sua
-                    <a href="#v_ventito">ventitabat</a>, ad
+                    <a href="#id_ventito">ventitabat</a>, ad
                     Jovam bellipotentem venerandum, eique sacrificandum, quum
                     quidem illic duo Elis filii, Hophnis et Phinees, Jovae
                     sacerdotes essent.<br>
-                <span class="tag-nova">Tremellius:</span>
+                <span class="ts-label">Tremellius:</span>
                     Ascendebat autem vir ille e civitate sua
                     de anno in annum, ad incurvantumse et ad
                     sacrificandum Jehovae exercituum,
                     Schiluntem: ubi duo filii Heli, Chophni y Pinchas,
                     sacerdotio fungebantur Jehovae.
                     <br>
-                <span class="tag-nova">Munster:</span>
+                <span class="ts-label">Munster:</span>
                     <br>
-                <span class="tag-nova">Schmidt:</span>
+                <span class="ts-label">Schmidt:</span>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
                 <span class="tag-comment">Nota 1:</span>
                     Según IA. "cada año" (más probable), o «de tiempo (preceptuado)
@@ -611,31 +535,31 @@
 
 <!-- 1.4 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.4">4.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.4">4.</a></span>
             Venit ergo dies, et immolavit Elcana, deditque Phenennae uxori suae,
             et cunctis filiis ejus et filiabus, partes :
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et fuit dies, et immolauit Elcanah, deditque
             Penninah uxori suae, et omnibus filiis eius, et filiabus
             eius partes.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Igitur quodam die Elcana, facto sacrificio, quum Phenennae
                     conjugi suae, ejusque filiis omnibus filiabusque, portiones
                     distribuisset,
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     ... Finees ...
             </div>
         </div>
@@ -644,35 +568,35 @@
 
 <!-- 1.5 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 5 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.5">5.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.5">5.</a></span>
             Annae autem dedit partem unam tristis, quia Annam diligebat. Dominus
             autem concluserat vulvam ejus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ipsi vero Channah dedit partem unam honorabilem,
             quoniam Channah diligebat : Dominus autem
             concluserat uuluam eius.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Annae portionem unam tristi vultu dedit. Amabat enim Annam,
                     cujus uterum Jova clauserat.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Nova Vulgata:</span>
+                <span class="ts-label">Nova Vulgata:</span>
                     "dabat unam partem electam".<br>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
                 <span class="tag-comment">Nota 1:</span>
                 "In Hebraeo ita legitur: Annae autem dedit partem unam duplicem"
@@ -684,33 +608,33 @@
 
 <!-- 1.6 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.6">6.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.6">6.</a></span>
             Affligebat quoque eam aemula ejus, et vehementer angebat, in tantum
             ut exprobraret quod Dominus conclusisset vulvam ejus :
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et irritabat eam inimica eius etiam ira, propterea
             quod improperaret ei quod concluserat Dominus
             uuluam eius.
         </div>
 
-        <div class="aparato-critico">
-                <span class="label-version-c">Castellion</span>
+        <div class="ly-grid-one-column ts-apparatus">
+                <span class="ts-label">Castellion</span>
                     Quamque praeterea pellex eam ipsam ob clusi a Jova uteri
                     causam insectabatur atque irritabat.
         </div>
 
-        <div class="aparato-critico">
-            <div class="nota-item"><span class="tag-nova">Nova Vulgata:</span>
+        <div class="ly-grid-one-column ts-apparatus">
+            <div class="nota-item"><span class="ts-label">Nova Vulgata:</span>
                 "vehementer angebat, ut conturbaret eam"<br>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
                 <span class="tag-comment">Nota 1:</span>
                 Comentario de Rabano Mauro (Commentaria in Librum Regum):
                 "Malorum est enim solatium bonos carpere."
@@ -720,33 +644,33 @@
 
 <!-- 1.7 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.7">7.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.7">7.</a></span>
             sicque faciebat per singulos annos : cum redeunte tempore
             ascenderent ad templum Domini, et sic provocabat eam : porro illa
             flebat, et non capiebat cibum.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et sic faciebat annuatim à tempore quo ascendebat
             ipsa in domum Domini, sic irritabat eam : flebat
             autem, et non comedebat.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Ac quum Elcana idem quotannis faceret, illa, quandocumque
                     in Jovae templum proficiscebatur, idem faciebat.
                     Eam ob rem flebat Anna, et a cibo abstinebat.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">...:</span>
+                <span class="ts-label">...:</span>
             </div>
         </div>
 
@@ -754,25 +678,25 @@
 
 <!-- 1.8 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.8">8.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.8">8.</a></span>
             Dixit ergo ei Elcana vir suus : Anna, cur fles ? et quare non
             comedis ? et quam ob rem affligitur cor tuum ? numquid non ego
             melior tibi sum, quam decem filii ?
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Dixitque ei Elcanah vir suus, Channah ut quid
             fles et ut quid non comedis, et ut quid male se
             habet cor tuum? Nonne melior sum tibi, quam decem
             filii?
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Et maritus ejus Elcana eam sic allocutus est: "Anna, quid
                     fles? Cur non comedis? Cur moesto es animo? An non ego tibi
                     sum vel decies filiis potior?"
@@ -780,9 +704,9 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">...:</span>
+                <span class="ts-label">...:</span>
             </div>
         </div>
 
@@ -790,33 +714,33 @@
 
 <!-- 1.9 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.9">9.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.9">9.</a></span>
             Surrexit autem Anna postquam comederat et biberat in Silo. Et Heli
             sacerdote sedente super sellam ante postes templi Domini,
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Surrexitque Channah postquam comederant in
             Siloh, et biberant. Heli autem sacerdos sedebat super
             folium, iuxta postem templi Domini.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     At Anna, postquam cibum potionemque Silonem sumpsit,
                     surrexit. Et Eli pontifex, in sede apud cellae Jovae postes
                     sedente,
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
                 <!-- Amiatinus p. 440 -->
-                <span class="tag-nova">Codex Amiatinus:</span>
+                <span class="ts-label">Codex Amiatinus:</span>
                     ... comedat <i>in silo</i> et biberat ... : cambio de orden
             </div>
         </div>
@@ -825,21 +749,21 @@
 
 <!-- 1.10 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.10">10.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.10">10.</a></span>
             cum esset Anna amaro animo, oravit ad Dominum, flens largiter,
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et ipsa erat amaro animo, oravitque ad Dominum,
             et flendo flevit.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Jovam magno cum animi dolore flens precata est,
             </div>
         </div>
@@ -848,10 +772,10 @@
 
 <!-- 1.11 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.11">11.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.11">11.</a></span>
             et votum vovit, dicens :
             Domine exercituum,
             si respiciens videris afflictionem
@@ -865,7 +789,7 @@
             super caput ejus.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et vovit votum, et ait: Domine exercituum si
             videndo videris afflictionem ancilla tuae, et
             recordatus fueris mei, et non fueris oblitus ancillae tuae
@@ -874,9 +798,9 @@
             ascende super caput illius.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     votumque fecit his verbis:
                     "Jova armipotens, si meam ancillae tuae miseriam
                     respexeris, meique non oblitus, sed memor, mihi virilem
@@ -885,9 +809,9 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     ...et dabo eum Domino <i>omnes dies</i> : en acustivo.
             </div>
         </div>
@@ -896,23 +820,23 @@
 
 <!-- 1.12 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 12 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.12">12.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.12">12.</a></span>
             Factum est autem, cum illa
             multiplicaret preces coram Domino,
             ut Heli observaret os ejus.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et fuit, cum diu oraret coram Domino, Heli
             observabat os eius.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Haec cum illa Jovam prolixe obsecraret, cumque suo animo
                     loquens labra moveret, neque vocem ederet:
             </div>
@@ -921,10 +845,10 @@
 
 <!-- 1.13 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.13">13.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.13">13.</a></span>
             Porro Anna loquebatur
             in corde suo,
             tantumque labia illius movebantur,
@@ -932,48 +856,48 @@
             aestimavit ergo eam Heli temulentam,
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Channah autem loquebatur in corde suo, tantum
             labia eius movebantur, sed vox eius non
             audiebatur, et aestimavit eam Heli tamquam ebriam.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Elis ejus os observans, temulentam ratus est, et,
                     "Quousque," inquit, "ebria eris? Exhala vinum."
             </div>
         </div>
     </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     "aestimavit <i>igitur</i> eam Heli temulentam" : <i>igitur</i> por <i>ergo</i>.
             </div>
         </div>
 
 <!-- 1.14 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.14">14.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.14">14.</a></span>
             dixitque ei :
             Usquequo ebria eris ?
             digere paulisper vinum,
             quo mades.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Dixitque ad eam Heli: Usquequo ebria eris?
             remove vinum tuum a te.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     At illa: "Pace tua, domine," inquit, "mulier sum aegro
                     animo, non vino pota aut temeto, sed animi mei affectionem
                     apud Jovam effundo.
@@ -984,10 +908,10 @@
 
 <!-- 1.15 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.15">15.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.15">15.</a></span>
             Respondens Anna : Nequaquam,
             inquit, domine mi :
             nam mulier infelix nimis
@@ -997,15 +921,15 @@
             sed effudi animam meam
             in conspectu Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Respondit Channah et ait: Non Domine mi sum
             ebria, sed mulier dura spiritus sum, et uinum et
             Sechar non bibi, sed effudi animam meam coram
             Domino.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Noli me improbarum habere numero: nam hactenus ex animi mei
                     sensu atque dolore locuta sum."
             </div>
@@ -1014,25 +938,25 @@
 
 <!-- 1.16 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 16 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.16">16.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.16">16.</a></span>
             Ne reputes ancillam tuam
             quasi unam de filiabus Belial :
             quia ex multitudine doloris
             et mœroris mei
             locuta sum usque in praesens.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ne reputes, quod ancilla tua stet coram
             Comino tamquam filia impia : quia ex multitudine
             eloquii mei, et indignationis meae locuta sum
             hactenus.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Tum Elis: "Abi," inquit, "cum bona pace: Deus Israelitarum
                     tibi det, quae ab eo flagitasti."
             </div>
@@ -1042,10 +966,10 @@
 <!-- 1.17 -->
 <!-- Amiatinus: p. 441, col 2, linea 3-6 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 17 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.17">17.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.17">17.</a></span>
             Tunc Heli ait ei :
             Vade in pace : et Deus Israël
             det tibi
@@ -1053,22 +977,22 @@
             rogasti eum.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et respondit Heli, ac dixit: Vade in pace, et
             Deus Israel det petitionem tuam, quam petisti
             ab eo.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Et illa: "Dabis mihi veniam," inquit.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     "Tunc Heli ait ei" : falta <i>ei</i>
             </div>
         </div>
@@ -1078,10 +1002,10 @@
 <!-- 1.18 -->
 <!-- Amiatinus: p. 441, col 2, linea 7-13 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.18">18.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.18">18.</a></span>
             Et illa dixit :
             Utinam inveniat ancilla tua
             gratiam in oculis tuis.
@@ -1091,15 +1015,15 @@
             in diversa mutati.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et dixit: inveniat ancilla tua gratiam in oculis
             tuis, et abiit mulier in viam suam, et comedit:
             iraque illius non fuit ei ultra.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Haec locuta mulier discessit, cibumque sumpsit, neque
                     amplius moestitiam retinuit.
             </div>
@@ -1109,10 +1033,10 @@
 <!-- 1.19 -->
 <!-- Amiatinus: p. 441, col 2, linea 14-20 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.19">19.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.19">19.</a></span>
             Et surrexerunt mane,
             et adoraverunt coram Domino:
             reversique sunt, et venerunt
@@ -1122,15 +1046,15 @@
             et recordatus est eius Dominus.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et fuit, in reuolutione dierum concepit Channah, et
             peperit filium, uocauitque nomen eius Semuel, quod
             à Domino petiuisset eum. Cognovit autem Elcana Annam uxorem suam :
             et recordatus est ejus Dominus.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Mane ubi surrexerunt, Jovam venerati, Ramatham domum
                     redierunt.
             </div>
@@ -1140,10 +1064,10 @@
 <!-- 1.20 -->
 <!-- Amiatinus: p. 441, col 2, linea 21-25 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.20">20.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.20">20.</a></span>
              Et factum est post
              circulum dierum,
              concepit Anna, et peperit ﬁlium :
@@ -1151,15 +1075,15 @@
              Samuel, eo quod a Domino postulasset eum.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et fuit, in revolutione dierum concepit Channah, et
             peperit filium, vocavitque nomen eius Semuel, quod
             a Domino petivisset eum.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Et Elcana Annae conjugis suae notitiam habuit, quae, Jova
                     ejus memore, vertentibus temporibus conceptum edidit
                     filium, Samuelemque ex eo nominavit, quod eum a Jova
@@ -1167,9 +1091,9 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     ...Samuhel ...
             </div>
         </div>
@@ -1179,33 +1103,33 @@
 <!-- 1.21 -->
 <!-- Amiatinus: p. 441, col 2, linea 26-30 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.21">21.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.21">21.</a></span>
             Ascendit autem vir eius Elcana,
             et omnis domus eius
             ut inmolaret Domino hostiam
             solemnem, et votum suum.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ascendit autem uir Elcanah, et omnis familia eius
             ad immolandum Domino hostiam anniuersariam, et
             uotum suum.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Deinde proficiscente Elcana una cum tota sua familia ad
                     anniversarium sacrificium Jovae faciendum, votumque suum
                     reddendum,
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     ...sollemnem
             </div>
         </div>
@@ -1215,10 +1139,10 @@
 <!-- 1:22 -->
 <!-- Amiatinus: p. 441, col 2, linea 31-37 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 22 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.22">22.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.22">22.</a></span>
             Et Anna non ascendit :
             dixit enim viro suo :
             Non vadam donec ablactetur
@@ -1227,15 +1151,15 @@
             conspectum Domini,
             et maneat ibi jugiter.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Channah autem non ascendit: dixitque enim viro suo:
             Non ascendam donec ablactetur infans, et adducam
             eum ut conspicatur coram Domino, et maneat ibi
             usque in saeculum.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                      Anna profecta non est, “donec puerum ablactatum (inquit
                      viro suo) eo deducam, ut Jovae appareat, illicque sic
                      perpetuo maneat.”
@@ -1246,10 +1170,10 @@
 <!-- 1.23 -->
 <!-- Amiatinus: p. 441, col. 2, lín. 38 - p.442, col1, lín. -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 23 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.23">23.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.23">23.</a></span>
             Et ait ei Elcana vir suus :
             Fac quod bonum tibi videtur,
             et mane donec ablactes eum :
@@ -1259,7 +1183,7 @@
             donec amoveret eum a lacte.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Dixitque ei Elcanah vir suus: Fac quod bonum est
             in oculis tuis: mane donec ablactes eum:
             verumtamen confirmet Dominus verbum suum Mansitque
@@ -1267,9 +1191,9 @@
             eum.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Cui Elcana concessit, ut faceret, quod ei visum esset,
                     maneretque, donec puerum ablactasset: Jovamque precatus
                     est, ut promissa confirmaret. Mansit ergo mulier, puerumque
@@ -1277,9 +1201,9 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Codex Amiatianus:</span>
+                <span class="ts-label">Codex Amiatianus:</span>
                     ...praecorque...
             </div>
         </div>
@@ -1288,30 +1212,30 @@
 
 <!-- 1.24 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 24 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.24">24.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.24">24.</a></span>
             Et adduxit eum secum, postquam ablactaverat, in vitulis tribus, et
             tribus modiis farinae, et amphora vini, et adduxit eum ad domum
             Domini in Silo. Puer autem erat adhuc infantulus :
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ascenderetque fecit eum secum, cum ablactavit eum
             iuvencis tribus, et modio uno farinae, et utre vini, et
             adduxit eum ad domum Domini in Siloh, et puer
             erat valde puer.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="tag-nova">Nova Vulgata:</span>
+                <span class="ts-label">Nova Vulgata:</span>
                     "... cum vitulo trium annorum et tribus modiis farinae et
                     utre vini";<br>
-                <span class="tag-nova">Septuaginta Romana:</span>
+                <span class="ts-label">Septuaginta Romana:</span>
                     Et ascendit cum eo in Selom in vitulo trienni, et panibus,
                     et Oephi similaginis, et Nebel vini, et intravit in
                     domum Domini in Selom, et puer cum eis. <br>
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Postea deliculum duxit secum tribus cum tauris
                     et uno ephi farinae, atque utre vini, Silonem, in aedem
                     Jovae admodum puerum:
@@ -1330,18 +1254,18 @@
 
 <!-- 1.25 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
             <!-- Versículo 25 -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.25">25</a>.</span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.25">25</a>.</span>
             et immolaverunt vitulum, et obtulerunt puerum Heli.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et iugulaverunt iuvencum, et adduxerunt puerum ad Heli.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Mactaruntque taurium, et puerum ad Elim adduxerunt.
             </div>
         </div>
@@ -1349,21 +1273,21 @@
 
 <!-- 1.26 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.26">26.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.26">26.</a></span>
             Et ait Anna : Obsecro mi domine, vivit anima tua, domine : ego sum
             illa mulier, quae steti coram te hic orans Dominum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et dixit: obsecro domine mi, vivit anima tua
             domine mi: ego sum mulier, quae steti tecum hic ad
             orandum coram Domino.
         </div>
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Deinde illa sic locuta est: "Plurimum te salvere jubeo,
                     domine. Ego sum mulier illa, domine, quae hic apud te Jovae
                     orans astabam.
@@ -1373,22 +1297,22 @@
 
 <!-- 1.27 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.27">27.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.27">27.</a></span>
             Pro puero isto oravi, et dedit mihi Dominus petitionem meam quam
             postulavi eum.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Pro puero hoc oravi, et dedit Dominus mihi petitionem
             meam, quam petii ab eo.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Hunc puerum orabam, et mihi Jova postulata dedit.
             </div>
         </div>
@@ -1397,22 +1321,22 @@
 
 <!-- 1.28 -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v1.28">28.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_1.28">28.</a></span>
             Idcirco et ego commodavi eum Domino cunctis diebus quibus fuerit
             commodatus Domino. Et adoraverunt ibi Dominum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Et etiam ego commodavi eum Domino omnibus
             diebus, quibus est commodatus Domino, et incurvavit
             se ibi Domino: Oravit autem Channah, et dixit:
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                     Itaque ego hunc vicissim Jovae acceptum fero, atque in
                     perpetuum addico." Tum ille ibi Jovam adoravit. Et Anna his
                     verbis supplicavit:
@@ -1424,66 +1348,66 @@
 
 <!-- CAPITULO II - - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - -->
 
-<div class="document-wrapper">
+<div class="ly-container-document">    
 
     <header>
         <div class="caput-title">Caput II</div>
     </header>
 
-    <div class="biblia-grid">
-        <div class="label-version">Clementina editio</div>
-        <div class="label-version">S. Pagnini</div>
+    <div class="ly-grid-2c">
+        <div class="ts-label ts-label-underline">Clementina editio</div>
+        <div class="ts-label ts-label-underline">S. Pagnini</div>
 
 <!-- 2.1 -->
 <!-- Amiatinus: p. 441, col 2, linea 26-31 -->
 <!-- Guttemberg, p.130v -->
 <!-- Guttemberg, p.130v -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.1">1.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.1">1.</a></span>
             Exsultavit cor meum in Domino,<br>
             et exaltatum est cornu
                 meum in Deo meo ; <br> <!-- AMITIANUS : in dominum -->
             dilatatum est os meum super
                 inimicos meos : <br>
-            quia laetata sum in <a href="#v_salutare">salutari</a> tuo.
+            quia laetata sum in <a href="#id_salutare">salutari</a> tuo.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Exultavit cor meum in Domino, exaltatum est
             cornu meum in Domino : dilatatum est os meum
             super inimicos meos, quia laetata sum in salute
             tua.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Vetus Latina</span>
+                <span class="ts-label">Vetus Latina</span>
                     <i>Confirmatum est</i> cor meum... <br>
-                <span class="label-version-c">Guttenberg</span>
+                <span class="ts-label">Guttenberg</span>
                     ... in <i>domino</i> meo.<br>
-                <span class="label-version-c">Nova Vulgata</span>
+                <span class="ts-label">Nova Vulgata</span>
                     ... in <i>domino</i> meo.<br>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                     Confirmatum est cornu meum in Domino : exatatum est cornu meum
                     in Deo meo. Dilatatum est super inimicos meos os meum: laetata sum in
                     salute tua.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                  Exultat per Jovam mea mens: attollitur per Jovam meum cornu:
                  panditur in meos inimicos os meum, adeo laetor tuo praesidio.
             </div>
             <div class="nota-item">
-                <span class="label-version-c">Tremellius</span>
+                <span class="ts-label">Tremellius</span>
                 2.1 (Tunc orans Channa Dixit, )
                 Exsultat animus meus in Iehova,
                 elevatur cornu meum in Iehova:
@@ -1491,7 +1415,7 @@
                 nam laetor de salute tua.<br>
             </div>
             <div class="nota-item">
-                <span class="label-version-c">Münster</span>
+                <span class="ts-label">Münster</span>
                 Exultavit cor meum in domino, et
                 exaltatum est cornu meum in
                 domino: dilatatum est os meum
@@ -1499,7 +1423,7 @@
                 salute tua.
             </div>
             <div class="nota-item">
-                <span class="label-version-c">Schmidt</span>
+                <span class="ts-label">Schmidt</span>
                 Exultavit cor meum in JEHOVAH;
                 exaltavit se cornu meum in
                 JEHOVAH: dilatatum es os meum
@@ -1508,7 +1432,7 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
 
             <div class="nota-item">
                 <span class="tag-comment">Nota 1:</span>
@@ -1527,33 +1451,33 @@
 
 <!-- 2.2  -->
 
-    <div class="biblia-grid">
+    <div class="ly-grid-2c">
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.2">2.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.2">2.</a></span>
             Non est sanctus, ut est Dominus, <br>
             neque enim est alius extra te, <br>
             et non est fortis sicut Deus noster.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Non est sanctus sicut Dominus: quia non est
             <span class="selected_word">praeter</span>
             te, et non est fortis sicut Deus noster.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Quoniam non est sanctus, sicut Dominus: et non est iustus,
                 sicut Deus noster; non est sanctus praeter te.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
 
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 Non modo non est alius aeque sanctus ut Jova: sed ne est quidem
                 ullus praeter te, nec ullum numen est cum Deo nostro
                 comparandum.
@@ -1567,8 +1491,8 @@
 
 <!-- 2.3  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.3">3.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.3">3.</a></span>
             Nolite multiplicare loqui
                 <span class="selected_word">sublimia</span> gloriantes ; <br>
             recedant vetera de ore vestro : <br>
@@ -1576,24 +1500,24 @@
             et ipsi praeparantur cogitationes.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Ne multiplicetis, ut loquamini valde sublime verbum
             egrediatur vetus verbum ex ore vestro, quia Deus
             scientiarum Dominus, et ipsi directa sunt opera.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Nolite gloriari, et nolite loqui excelsa: non procedat
                 magniloquentia de ore vestro. Quoniam Deus
                 scientiarum Dominus: et Deus praeparans adinventiones suas.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 Nolite, nolite tam superbe loqui: facessat ex ore vestro
                 ferocia: nam quum omniscientis Deus Jova sit, irriti sunt
                 conatus.
@@ -1605,30 +1529,30 @@
 
 <!-- 2.4  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.4">4.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.4">4.</a></span>
             Arcus fortium superatus est, <br>
             et infirmi <span class="selected_word">accincti</span> sunt
                 <span class="selected_word">robore</span>.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Arcus, et fortes robore
                 robore <span class="selected_word">confracti</span>
                 sunt, et debiles accinti
             sunt robore.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Arcus potentium infirmatus est: et infirmi accint sunt virtute.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 Fortium arcus <span class="selected_word">franguntur</span>, et
                     abjecti </span> robore accinguntur.
             </div>
@@ -1639,8 +1563,8 @@
 
 <!-- 2.5  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.5">5.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.5">5.</a></span>
             Repleti prius, pro panibus se
                 <span class="selected_word">locaverunt</span> : <br>
             et famelici saturati sunt, <br>
@@ -1649,7 +1573,7 @@
                 <span class="selected_word">infirmata</span> est.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Hi qui saturati prius fuerant pro pane se
             locaverunt, et qui fuerunt famelici desierunt
                 <span class="selected_word">famescere</span>
@@ -1657,62 +1581,62 @@
             filios infirmata est.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Pleni panibus minorati sunt, trasierunt terram. Quoniam sterilis
                 peperit septem: et multa in filiis infirmata est
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 Saturi ob victum operam suam locant, et famelici desinunt,
                 eousque ut sterilis septem pariat, et quae fecunda est,
                 reddatur <span class="selected_word">effoeta</span>.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Codex Amitianus</span>
+                <span class="ts-label">Codex Amitianus</span>
                     <i>Saturati prius pro pane</i> se locaverunt
             </div>
         </div>
 
 <!-- 2.6 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.6">6.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.6">6.</a></span>
             Dominus mortificat et vivificat ; <br>
             <span class="selected_word">deducit</span> ad
             <span class="selected_word">inferos</span> et
                 <span class="selected_word">reducit</span>.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Dominus mortificat, et vivificat, descendere faciat
             ad inferos et ascendere facit.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Codex Amitianus</span>
+                <span class="ts-label">Codex Amitianus</span>
                     deducit ad <i>infernum</i>
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Dominus mortificat, et vivificat : deducit ad inferos, et reducit.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 Jova occidit et in vitam revocat:
                     <span class="selected_word">demittit</span> in orcum et
                     <span class="selected_word">extrahit</span>.
@@ -1721,28 +1645,28 @@
 
 <!-- 2.7  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.7">7.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.7">7.</a></span>
             Dominus pauperem facit et
                 <span class="selected_word">ditat</span>, <br>
             humiliat et sublevat.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Dominus pauperem facit, et ditat, humiliat, et
             exaltat.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 Dominus pauperem facit, et ditat: humiliat, et exaltat.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 7 Jova depauperat et ditat: deprimit et evehit, tenuesque ab
                 humo suscitat.
             </div>
@@ -1750,8 +1674,8 @@
 
 <!-- 2.8  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.8">8.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.8">8.</a></span>
             Suscitat de pulvere <span class="selected_word">egenum</span>, <br>
             et de stercore elevat pauperem : <br>
             ut sedeat cum principibus, <br>
@@ -1760,16 +1684,16 @@
             et posuit super eos orbem.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Suscitat e pulvere pauperem, e stercore elevabit
             <span class="selected_word">mendicum</span>, ut sedere faciat cum principibus, et solium
             gloriae <span class="selected_word">sortiri</span> faciat eos : Domini enim sunt cardines
             terrae, et posuit super eos orbem.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span>
+                <span class="ts-label">Septuaginta Romana</span>
                 8. Suscitat a terra pauperem, et de stercore erigit inopem,
                     ut sedere faciat cum potentibus populi, et sedem
                 gloriae hereditatem dans eis. <i>9. Dans votum voventi, et
@@ -1784,10 +1708,10 @@
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
-                8. Pauperes a <a href="#v_paedore">paedore</a> attollit, ut
+                <span class="ts-label">Castellion</span>
+                8. Pauperes a <a href="#id_paedore">paedore</a> attollit, ut
                     collocatos cum illustribus
                 in gloriosi possessionem solii mittat. <br>
                 [<i>9. Qui et precantibus vota concedit, et justorum annos
@@ -1803,29 +1727,29 @@
 
 <!-- 2.9  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.9">9.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.9">9.</a></span>
             Pedes sanctorum suorum servabit, <br>
             et impii in tenebris conticescent : <br>
             quia non in fortitudine sua roborabitur vir.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Pedes piorum suorum servabit, et impii in tenebris
             conticescent, quia non in fortitudine roborabitur
             vir.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span><br>
+                <span class="ts-label">Septuaginta Romana</span><br>
                 -- SIN CORRESPONDIENTE --
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (12) qui piorum suorum pedes custodiet, impiis silentibus in
                 tenebris: quandoquidem homo viribus non valet.
             </div>
@@ -1833,8 +1757,8 @@
 
 <!-- 2.10  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.10">10.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.10">10.</a></span>
             Dominum formidabunt adversarii ejus : <br>
             et super ipsos in caelis tonabit. <br>
             Dominus judicabit fines terrae, <br>
@@ -1842,25 +1766,25 @@
             et sublimabit cornu christi sui.
         </div>
 
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
             Domine conterantur rixae eius, super ipsum e caelis
             tonabit: Dominus iudicabit fines terrae, et dabit
             fortitudinem regi suo, et sublimabit cornu Christi
             sui.
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Septuaginta Romana</span><br>
+                <span class="ts-label">Septuaginta Romana</span><br>
                 Dominus ascendit in caelos, et tonuit: ipse iudicabit
                 extrema terrae. Et dat virtutem regibus nostris: et exaltabit cornu
                 Christi sui.
             </div>
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 13. Jovae frangentur adversarii, eo de caelis in eos detonante.
                 14. Jova terrarum fines judicabit, regique suo fortitudinem
                 dabit, et sui uncti cornu attollet.”
@@ -1870,17 +1794,17 @@
 
 <!-- 2.11 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.11">11.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.11">11.</a></span>
             Et abiit Elcana Ramatha, in domum suam : puer autem erat minister
             in conspectu Domini ante faciem Heli sacerdotis.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 15. Deinde Elcana Ramatham domum profecto, puer remansit
                 administer Jovae apud Elim pontificem.
             </div>
@@ -1891,16 +1815,16 @@
 
 <!-- 2.12  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.12">12.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.12">12.</a></span>
             Porro filii Heli, filii Belial, nescientes Dominum,
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 16. Huic Eli filii erant nequissimi, et Jovae ignari.
             </div>
             <div class="nota-item">
@@ -1910,18 +1834,18 @@
 
 <!-- 2.13  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.13">13.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.13">13.</a></span>
             neque officium sacerdotum ad populum : sed quicumque immolasset
             victimam, veniebat puer sacerdotis, dum coquerentur carnes, et
             habebat fuscinulam tridentem in manu sua,
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 17. Habebant autem pontifices hoc jus in populum, ut quocumque sacrificium faciente, dum caro
                 coquebatur, veniret puer pontificis, fuscinam tridentem ferens,
             </div>
@@ -1932,18 +1856,18 @@
 
 <!-- 2.14  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.14">14.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.14">14.</a></span>
             et mittebat eam in lebetem, vel in caldariam, aut in ollam, sive in
             cacabum : et omne quod levabat fuscinula, tollebat sacerdos sibi :
             sic faciebant universo Israëli venientium in Silo.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 qua in lebetem, aut ahenum, aut cacabum, aut ollam immissa,
                 quicquid extrahebat fuscina, id sibi pontifex vendicabat.
                 18. Atque ita faciebant omnibus Israelitis illuc Silonem
@@ -1956,18 +1880,18 @@
 
 <!-- 2.15  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.15">15.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.15">15.</a></span>
             Etiam antequam adolerent adipem, veniebat puer sacerdotis, et
             dicebat immolanti : Da mihi carnem, ut coquam sacerdoti : non enim
             accipiam a te carnem coctam, sed crudam.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 19. Etiam ante incensum suffitu adipem, veniebat pontificis
                 puer, et immolatori jubebat, ut carnem daret assandam
                 pontifici: pontificem enim ab eo non esse coctam, sed crudam
@@ -1980,19 +1904,19 @@
 
 <!-- 2.16  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.16">16.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.16">16.</a></span>
             Dicebatque illi immolans : Incendatur primum juxta morem hodie
             adeps, et tolle tibi quantumcumque desiderat anima tua. Qui
             respondens aiebat ei : Nequaquam : nunc enim dabis, alioquin tollam
             vi.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 20. Quod si ille monebat ut adipem interim adoleri sineret, deinde suo arbitrio sumeret, urgebat in
                 praesentia dari: alioquin se per vim erepturum esse.
             </div>
@@ -2003,17 +1927,17 @@
 
 <!-- 2.17  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.17">17.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.17">17.</a></span>
             Erat ergo peccatum puerorum grande nimis coram Domino : quia
             retrahebant homines a sacrificio Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 21. Haec puerorum improbitas visa est Jovae maxima, propterea quod hinc Jovae fertum male apud homines
                 audiebat.
             </div>
@@ -2024,17 +1948,17 @@
 
 <!-- 2.18  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.18">18.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.18">18.</a></span>
             Samuel autem ministrabat ante faciem Domini, puer accinctus ephod
             lineo.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 22. Samuel autem puer apud Jovam ministrabat, lineo indutus
                 ephodo:
             </div>
@@ -2045,17 +1969,17 @@
 
 <!-- 2.19  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.19">19.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.19">19.</a></span>
             Et tunicam parvam faciebat ei mater sua, quam afferebat statutis
             diebus, ascendens cum viro suo, ut immolaret hostiam solemnem.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (22) eique mater factam a se brevem praetextam quotannis
                 afferebat, quum ad anniversarium sacrificium cum viro suo
                 proficiscebatur.
@@ -2067,18 +1991,18 @@
 
 <!-- 2.20  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.20">20.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.20">20.</a></span>
             Et benedixit Heli Elcanae et uxori ejus : dixitque ei : Reddat tibi
             Dominus semen de muliere hac, pro fœnore quod commodasti Domino. Et
             abierunt in locum suum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 23. Et Elis Elcanae ejusque conjugi precatus est, ut ei Jova ex ea femina prolem daret, prout ipsa a
                 Jova postulaverat.
             </div>
@@ -2089,17 +2013,17 @@
 
 <!-- 2.21 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.21">21.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.21">21.</a></span>
             Visitavit ergo Dominus Annam, et concepit, et peperit tres filios,
             et duas filias : et magnificatus est puer Samuel apud Dominum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 24. Igitur iis in patriam reversis, Anna Jova dante concepit, ediditque tres filios et duas filias,
                 puero Samuele apud Jovam crescente.
             </div>
@@ -2110,18 +2034,18 @@
 
 <!-- 2.22  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.22">22.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.22">22.</a></span>
             Heli autem erat senex valde, et audivit omnia quae faciebant filii
             sui universo Israëli, et quomodo dormiebant cum mulieribus quae
             observabant ad ostium tabernaculi :
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 25. Elis autem jam admodum senex, auditis tot suorum filiorum in omnes Israelitas facinoribus, utque
                 cum mulieribus (quae pro oraculi tabernaculo excubabant) consuetudinem haberent,
             </div>
@@ -2132,17 +2056,17 @@
 
 <!-- 2.23  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.23">23.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.23">23.</a></span>
             et dixit eis : Quare facitis res hujuscemodi quas ego audio, res
             pessimas, ab omni populo ?
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (25) eos ita commonuit: 26. "Quamobrem facinora ista committitis, quae ego vulgo de vobis tam
                 scelerata audio?
             </div>
@@ -2153,17 +2077,17 @@
 
 <!-- 2.24  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.24">24.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.24">24.</a></span>
             Nolite, filii mei : non enim est bona fama quam ego audio, ut
             transgredi faciatis populum Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 27. Desinite, mei filii: non enim bene apud me auditis, qui Jovae populum ad nequitiam abducatis.
             </div>
             <div class="nota-item">
@@ -2173,18 +2097,18 @@
 
 <!-- 2.25  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.25">25.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.25">25.</a></span>
             Si peccaverit vir in virum, placari ei potest Deus : si autem in
             Dominum peccaverit vir, quis orabit pro eo ? Et non audierunt vocem
             patris sui : quia voluit Dominus occidere eos.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 28. Si quis in hominem homo peccat, disceptant arbitri: at quis in Jovam peccabit, quis pro eo
                 disceptabit?" 29. Sed illi patri dicto audientes non fuerunt, quod eos Jova volebat occidere.
             </div>
@@ -2195,17 +2119,17 @@
 
 <!-- 2.26  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.26">26.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.26">26.</a></span>
             Puer autem Samuel proficiebat atque crescebat, et placebat tam
             Domino quam hominibus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 30. Interea puer Samuel tum apud Jovam tum apud homines, et major in dies fiebat et melior.
             </div>
             <div class="nota-item">
@@ -2215,18 +2139,18 @@
 
 <!-- 2.27  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.27">27.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.27">27.</a></span>
             Venit autem vir Dei ad Heli, et ait ad eum : Haec dicit Dominus :
             Numquid non aperte revelatus sum domui patris tui, cum essent in
             aegypto in domo Pharaonis ?
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 31. Et divinus quidam ad Elim venit, et cum eo sic locutus est: "Sic dicit Jova: Quum ego me tui
                 parentis posteritati in Aegypto apud Pharaonem degenti patefecerim,
             </div>
@@ -2237,19 +2161,19 @@
 
 <!-- 2.28  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.28">28.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.28">28.</a></span>
             Et elegi eum ex omnibus tribubus Israël mihi in sacerdotem, ut
             ascenderet ad altare meum, et adoleret mihi incensum, et portaret
             ephod coram me : et dedi domui patris tui omnia de sacrificiis
             filiorum Israël.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (31) eamque mihi praeter omnes Israeliticas tribus ad sacerdotium delegerim, quae ad altare meum
                 immolaret, quae suffitum faceret, et ephodum coram me gestaret,
                 32. Denique quum tuae paternae familiae omnem Israelitarum rem divinam dederim,
@@ -2261,18 +2185,18 @@
 
 <!-- 2.29  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.29">29.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.29">29.</a></span>
             Quare calce abjecistis victimam meam, et munera mea quae praecepi ut
             offerrentur in templo : et magis honorasti filios tuos quam me, ut
             comederetis primitias omnis sacrificii Israël populi mei ?
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (32)  cur vos mea sacrificia atque serta a me in fano fieri jussa despicamini: plurisque tu tuos filios
                 quam me facis, quum primitiis omnium mei Israelitici populi munerum saginemini?
             </div>
@@ -2283,19 +2207,19 @@
 
 <!-- 2.30  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.30">30.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.30">30.</a></span>
             Propterea ait Dominus Deus Israël : Loquens locutus sum, ut domus
             tua, et domus patris tui, ministraret in conspectu meo usque in sempiternum. Nunc autem dicit Dominus :
             Absit hoc a me : sed quicumque glorificaverit me, glorificabo eum : qui autem contemnunt me, erunt
             ignobiles.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 33. Itaque statueram (inquit Jova Deus Israelitarum) tuam patrisque tui posteritatem in meo conspectu
                 versaturam esse in perpetuum: 34. Sed nunc absit hoc a me (inquit Jova) ut qui me in pretio habent, eos
                 ego non in pretio habeam: et qui me contemnunt, non despectui sint.”
@@ -2307,16 +2231,16 @@
 
 <!-- 2.31  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.31">31.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.31">31.</a></span>
             Ecce dies veniunt, et praecidam brachium tuum, et brachium domus patris tui, ut non sit senex in domo tua.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 35. “Scito futurum esse, ut ego tuum tuaeque patriae domus lacertum sic frangam, ut nullus sit domi
                 tuae senex:
             </div>
@@ -2327,17 +2251,17 @@
 
 <!-- 2.32  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.32">32.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.32">32.</a></span>
             Et videbis aemulum tuum in templo, in universis prosperis Israël : et non erit senex in domo tua omnibus
             diebus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (35) spectabisque in fano aemulum in omnibus bonis in Israelitas collatis, nec erit ullus unquam in tua
                 familia senex.
             </div>
@@ -2348,17 +2272,17 @@
 
 <!-- 2.33  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.33">33.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.33">33.</a></span>
             Verumtamen non auferam penitus virum ex te ab altari meo : sed ut deficiant oculi tui, et tabescat anima
             tua : et pars magna domus tuae morietur cum ad virilem aetatem venerit.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 36. Neque tuam stirpem ab ara mea divellam, quo tibi et oculi consumantur, et animus contabescat:
                 efficiamque, ut omnes qui tuae posteritati accreverint, aetate virili moriantur.
             </div>
@@ -2369,16 +2293,16 @@
 
 <!-- 2.34  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.34">34.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.34">34.</a></span>
             Hoc autem erit tibi signum, quod venturum est duobus filiis tuis, Ophni et Phinees : in die uno morientur ambo.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 37. Cujus rei signum hoc habeto, in tuis duobus filiis Hophni et Phinee eventurum, ut ambo eodem die
                 moriantur.
             </div>
@@ -2389,16 +2313,16 @@
 
 <!-- 2.35  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.35">35.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.35">35.</a></span>
             Et suscitabo mihi sacerdotem fidelem, qui juxta cor meum et animam meam faciet : et aedificabo ei domum fidelem, et ambulabit coram christo meo cunctis diebus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 38. Creabo autem mihi fidelem pontificem, qui ex animi mei sententia agat, et ei durabilem posteritatem
                 conciliabo, efficiamque ut apud unctum meum semper versetur:
             </div>
@@ -2409,18 +2333,18 @@
 
 <!-- 2.36  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v2.36">36.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_2.36">36.</a></span>
             Futurum est autem, ut quicumque remanserit in domo tua, veniat ut oretur pro eo, et offerat nummum
             argenteum, et tortam panis, dicatque : Dimitte me, obsecro, ad unam partem sacerdotalem, ut comedam
             buccellam panis.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 39. Quem pontificem, quicumque erit in familia tua reliquus, veneratum veniet ob nummum argenteum,
                 obque panem: et ab eo petet ut se in aliquod sacerdotium cooptet, quo bucellam panis edat."
             </div>
@@ -2433,44 +2357,44 @@
 
 <!-- CAPITULO III  - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - - - - - - - -->
 
-<div class="document-wrapper">
+<div class="ly-container-document">    
     <header>
         <div class="caput-title">Caput III</div>
     </header>
 
-    <div class="biblia-grid">
-        <div class="label-version">Clementina Editio</div>
-        <div class="label-version">S. Pagnini</div>
+    <div class="ly-grid-2c">
+        <div class="ts-label ts-label-underline">Clementina Editio</div>
+        <div class="ts-label ts-label-underline">S. Pagnini</div>
 
 <!-- 3.1 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.1">1.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.1">1.</a></span>
             Puer autem Samuel ministrabat Domino coram Heli, et sermo Domini erat pretiosus in diebus illis : non erat
             visio manifesta.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 1. Ceterum juvenis Samuel Jovae apud Elim ministrabat, quo quidem tempora rara Jovae oracula aut praedictiones extabant.
             </div>
 
         </div>
 
 <!-- 3.2  -->
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.2">2.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.2">2.</a></span>
             Factum est ergo in die quadam, Heli jacebat in loco suo, et oculi ejus caligaverant, nec poterat videre :
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                  2. Accidit autem quodam die, Eli apud se cubante, oculis jam caecutientibus, parumque cernentibus,
             </div>
             <div class="nota-item">
@@ -2480,16 +2404,16 @@
 
 <!-- 3.3  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.3">3.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.3">3.</a></span>
             lucerna Dei antequam extingueretur, Samuel dormiebat in templo Domini, ubi erat arca Dei.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (2) quum divina lucerna nondum extincta foret, 3. ut Jova Samuelem in Jovae cella, ubi erat arca
                 divina,
             </div>
@@ -2500,16 +2424,16 @@
 
 <!-- 3.4  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.4">4.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.4">4.</a></span>
             Et vocavit Dominus Samuel. Qui respondens, ait : Ecce ego.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (2) cubantem vocaret. 4. Et ille: “Adsum,” inquit,
             </div>
             <div class="nota-item">
@@ -2519,17 +2443,17 @@
 
 <!-- 3.5  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.5">5.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.5">5.</a></span>
             Et cucurrit ad Heli, et dixit : Ecce ego : vocasti enim me. Qui dixit : Non vocavi : revertere, et dormi.
             Et abiit, et dormivit.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (4) simulque ad Elim cucurrit: 5. Et, “Adsum,” inquit, “vocatus a te.” 6. At ille: “Non vocavi,” inquit, “redi cubitum.” Itaque cubitum ivit.
             </div>
             <div class="nota-item">
@@ -2539,16 +2463,16 @@
 
 <!-- 3.6  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.6">6.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.6">6.</a></span>
             Et adjecit Dominus rursum vocare Samuelem. Consurgensque Samuel, abiit ad Heli, et dixit : Ecce ego, quia vocasti me. Qui respondit : Non vocavi te, fili mi : revertere et dormi.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 7. Deinde iterum vocatus a Jova, Samuel surrexit: ad Elimque cucurrit, et, “Adsum,” inquit, “nam tu me
                 vocasti.” 8. At ille: “Non vocavi, fili, redi cubitum.”
             </div>
@@ -2559,16 +2483,16 @@
 
 <!-- 3.7  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.7">7.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.7">7.</a></span>
             Porro Samuel necdum sciebat Dominum, neque revelatus fuerat ei sermo Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (7) Nondum autem Jovam didicerat Samuel, nec dum ullum ei Jovae patefactum fuerat oraculum.
             </div>
             <div class="nota-item">
@@ -2578,16 +2502,16 @@
 
 <!-- 3.8  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.8">8.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.8">8.</a></span>
             Et adjecit Dominus, et vocavit adhuc Samuelem tertio. Qui consurgens abiit ad Heli,
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 9. Igitur a Jova tertium vocatus surgit: Elimque adit, et se vocatu illius adesse dicit.
             </div>
             <div class="nota-item">
@@ -2597,18 +2521,18 @@
 
 <!-- 3.9  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.9">9.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.9">9.</a></span>
             et ait : Ecce ego, quia vocasti me. Intellexit ergo Heli quia Dominus vocaret puerum : et ait ad Samuelem :
             Vade, et dormi : et si deinceps vocaverit te, dices : Loquere, Domine, quia audit servus tuus. Abiit ergo
             Samuel, et dormivit in loco suo.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 10. Tum Eli intelligens a Jova puerum vocari, Samuelem sic alloquitur: “I cubitum. Quod si te
                 vocaverit, dicito: Loquere, Jova, nam ego tuus audio.” 11. Igitur in eundem locum reversus Samuel
                 recubuit.
@@ -2620,16 +2544,16 @@
 
 <!-- 3.10  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.10">10.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.10">10.</a></span>
             Et venit Dominus, et stetit : et vocavit, sicut vocaverat secundo : Samuel, Samuel. Et ait Samuel : Loquere, Domine, quia audit servus tuus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 12. Et Jova advenit astitiqque, et Samuelem, ut aliquoties ante fecerat, vocavit: “Samuel, Samuel.” Cui
                 Samuel: “Loquere,” inquit, “nam ego tuus audio.”
             </div>
@@ -2640,16 +2564,16 @@
 
 <!-- 3.11 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.11">11.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.11">11.</a></span>
             Et dixit Dominus ad Samuelem : Ecce ego facio verbum in Israël, quod quicumque audierit, tinnient ambae aures ejus.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 13. Et Jova: “Scito me, inquit, ejusmodi rem in Israelitis facturum esse, ut eam quicumque audient,
                 reddantur ambabus auribus attoniti.
             </div>
@@ -2660,16 +2584,16 @@
 
 <!-- 3.12  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.12">12.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.12">12.</a></span>
             In die illa suscitabo adversum Heli omnia quae locutus sum super domum ejus : incipiam, et complebo.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 14. Sum enim aliquando Eli importaturus omnia, quaecumque in ejus posteritatem praedixi: et quidem ita,
                 ut nihil omnino absit.
             </div>
@@ -2680,16 +2604,16 @@
 
 <!-- 3.13  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.13">13.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.13">13.</a></span>
             Praedixi enim ei quod judicaturus essem domum ejus in aeternum propter iniquitatem, eo quod noverat indigne agere filios suos, et non corripuerit eos.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 15. Significavi autem ei, me in perpetuum persecuturum esse in ejus posteritatem ejus culpam: qui, quum
                 filios suos nequiter se gerere non ignoraret, eos tamen non coercuerit.
             </div>
@@ -2700,16 +2624,16 @@
 
 <!-- 3.14  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.14">14.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.14">14.</a></span>
             Idcirco juravi domui Heli quod non expietur iniquitas domus ejus victimis et muneribus usque in aeternum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 16. Itaque contra Elis posteritatem juravi, culpam Elianae posteritatis nullis unquam sacrificiis aut
                 sertis expiatum iri.”
             </div>
@@ -2720,16 +2644,16 @@
 
 <!-- 3.15  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.15">15.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.15">15.</a></span>
             Dormivit autem Samuel usque mane, aperuitque ostia domus Domini. Et Samuel timebat indicare visionem Heli.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 17. Samuel igitur, postquam ad matutinum cubuit, fores aedis Jovae aperuit: quumque oraculum illud Eli
                 patefacere reformidaret,
             </div>
@@ -2740,16 +2664,16 @@
 
 <!-- 3.16  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.16">16.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.16">16.</a></span>
             Vocavit ergo Heli Samuelem, et dixit : Samuel fili mi ? Qui respondens ait : Praesto sum.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 17. Elis eo evocato, sic inquit: “Samuel fili.” “Quid vis?” inquit ille.
             </div>
             <div class="nota-item">
@@ -2759,16 +2683,16 @@
 
 <!-- 3.17  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.17">17.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.17">17.</a></span>
             Et interrogavit eum : Quis est sermo, quem locutus est Dominus ad te ? oro te ne celaveris me : haec faciat tibi Deus, et haec addat, si absconderis a me sermonem ex omnibus verbis quae dicta sunt tibi.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 18. “Quidnam est, quod ille tibi dixit?” inquit, “noli me celare: sic Deum habeas propitium, ut nihil
                 prorsus eorum quae tibi ab illo dicta sunt, me celabis.”
             </div>
@@ -2779,17 +2703,17 @@
 
 <!-- 3.18  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.18">18.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.18">18.</a></span>
             Indicavit itaque ei Samuel universos sermones, et non abscondit ab eo. Et ille respondit : Dominus est :
             quod bonum est in oculis suis faciat.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 19. Tum Samuel ei rem omnem sine ulla dissimulatione patefacit. Et ille: “Jova est,” inquit, “quod ei
                 videbitur, faciet.”
             </div>
@@ -2800,16 +2724,16 @@
 
 <!-- 3.19  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.19">19.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.19">19.</a></span>
             Crevit autem Samuel, et Dominus erat cum eo, et non cecidit ex omnibus verbis ejus in terram.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 20. Crescebat ergo Samuel favente Jova, neque ullum ejus dictum irritum erat,
             </div>
             <div class="nota-item">
@@ -2819,16 +2743,16 @@
 
 <!-- 3.20  -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.20">20.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.20">20.</a></span>
             Et cognovit universus Israël, a Dan usque Bersabee, quod fidelis Samuel propheta esset Domini.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 (20) innotuitque omnibus Israelitis ab usque Dan ad Bersabam, Samuelem certo esse Jovae vatem.
             </div>
             <div class="nota-item">
@@ -2838,16 +2762,16 @@
 
 <!-- 3.21 -->
 
-        <div class="v-box clementina">
-            <span class="v-num"><a name="v3.21">21.</a></span>
+        <div class="ly-grid-box ts-source">
+            <span class="ts-nverse"><a name="Id_3.21">21.</a></span>
             Et addidit Dominus ut appareret in Silo, quoniam revelatus fuerat Dominus Samueli in Silo juxta verbum Domini. Et evenit sermo Samuelis universo Israëli.
         </div>
-        <div class="v-box pagnini">
+        <div class="ly-grid-box ts-translatio">
         </div>
 
-        <div class="aparato-critico">
+        <div class="ly-grid-one-column ts-apparatus">
             <div class="nota-item">
-                <span class="label-version-c">Castellion</span>
+                <span class="ts-label">Castellion</span>
                 21. Iterumque ei apparuit Jova Silunte: nam Silunte Jova se Samueli patefecit oraculo suo.
                 III.1 Igitur, Samuele omnes Israelitas allocuto,
             </div>
@@ -3037,28 +2961,28 @@
 
 <div>
 
-    <div class="vocabulary-spacing">
-        <span class="vocabulary-entry">
-            <span id="v_paedor">Paedor -is</span>
+    <div class="vc-spacing">
+        <span class="vc-entry">
+            <span id="id_paedor">Paedor -is</span>
         </span>
-        <span class="vocabulary-subentry">m.</span>
+        <span class="vc-subentry">m.</span>
         Inmundicia, suciedad, mugre.
     </div>
 
-    <div class="vocabulary-spacing">
-        <span class="vocabulary-entry">
-            <span id="v_salutare">Salūtāre, -is</span>
+    <div class="vc-spacing">
+        <span class="vc-entry">
+            <span id="id_salutare">Salūtāre, -is</span>
         </span>
-        <span class="vocabulary-subentry">n.</span>
+        <span class="vc-subentry">n.</span>
         Latín bíblico: salvación, liberación. Seguridad.
         Salud, prosperidad.
     </div>
 
-    <div class="vocabulary-spacing">
-        <span class="vocabulary-entry">
-            <span id="v_ventito">Ventitô, ventitâs, ventitâvit, ventitâtum.</span>
+    <div class="vc-spacing">
+        <span class="vc-entry">
+            <span id="id_ventito">Ventitô, ventitâs, ventitâvit, ventitâtum.</span>
         </span>
-        Frecuentetativo de <span class="text-latin">veniô</span>
+        Frecuentetativo de <span class="ts-latin">veniô</span>
     </div>
 
 </div>
@@ -3092,8 +3016,8 @@
     </p>
 
     <p>
-    <span class="vocabulary-entry">Amor</span>
-    <span class="vocabulary-subentry">m.</span>
+    <span class="vc-entry">Amor</span>
+    <span class="vc-subentry">m.</span>
 
     </p>
 
