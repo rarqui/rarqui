@@ -1,0 +1,106 @@
+
+
+
+    .ts-source{ 
+        font-size: 1.15rem;
+        text-align: justify;        
+        font-weight: 400; 
+        color: #000; 
+    }
+          
+    .ts-translatio{ 
+        font-size: 1.15rem;
+        text-align: justify;        
+        font-style: italic; 
+        color: #444; 
+        font-size: 1.15rem;
+    }
+
+    .ts-apparatus {
+            background-color: rgba(255, 255, 255, 0.4);
+            border-left: 2px solid var(--accent-red);
+            font-size: 0.95rem;
+    }
+    
+    .ts-label {
+        font-weight: bold;
+        text-align: center;
+        color: var(--accent-red);
+        font-variant: small-caps;
+/*        padding-bottom: 20px;
+        border-bottom: 1px double var(--accent-red);
+        margin-bottom: 30px;*/
+    }
+
+    .label-version-c {
+            font-weight: bold;
+            text-align: center;
+            color: var(--accent-red);
+            font-variant: small-caps;
+            letter-spacing: 1.5px;
+    }
+    
+    .ts-label-underline{
+        letter-spacing: 1.5px;
+        padding-bottom: 20px;
+        border-bottom: 1px double var(--accent-red);
+        margin-bottom: 30px;
+    }        
+    
+    .ts-nsentence{
+        margin-right: 0px;        */
+    }
+    
+   .ts-nsentence{
+        font-weight: bold;
+        font-size: 0.7em;
+        margin-right: 0.1em;        
+        margin-left:  0em;
+        color: #888;
+   }
+    
+    .ts-nverse {
+        color: var(--accent-red);
+        font-weight: bold;
+        font-size: 0.9rem;
+        margin-right: .5em;
+    }
+    
+    
+
+    .ts-latin {
+        font-style: italic;
+    }
+
+    .ts-english {
+        font-style: italic;
+    }
+
+    .ts-spanish {
+        font-style: normal;
+    }
+    
+    .ts-author{
+        font-weight         : bold;
+    }    
+    
+    .ts-sup{
+        vertical-align      : 0.3em; /* <span class="vocabulary-sup">super;*/
+        font-size           : smaller;
+        font-style          : normal;
+    }
+    
+    
+    .ts-capital{
+                float: left;
+                font-family: Georgia;
+                font-size: 2em;
+                line-height: 1em;
+                padding-top: .0em;
+                padding-right: 1em;
+                padding-left: 1em;
+                color : var(--ancient-red);
+    }
+    
+    
+

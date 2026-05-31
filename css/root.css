@@ -1,10 +1,27 @@
-        :root {
-            --bg-paper: #f4ede0;
-            --text-main: #1d1d1b;
-            --accent-red: #8b2010; /* Rojo antiguo */ 
-            --link: #2468AC;
-            --link-visited: #123456; 
-            --border-ink: #3b352a;
-            --font-main: 'Constantia', 'Palatino', 'Georgia', serif;
-        }
+
+   :root {
+
+        --beige-1      : #f4ede0; 
+        --beige-2      : #f3eee3;
+        --ink-1        : #262626;
+        --ink-2        : #1d1d1b;
+        --ancient-red  : #8b2010;
+        
+        --bg-paper     : var(--beige-1);  
+        --text-main    : var(--ink-2);
+        --accent-red   : var(--ancient-red);
+   
+        --link         : var(--ancient-red); /*#2468AC;  blue;/**/
+        --link-visited : var(--ancient-red); /*#123456; /* red;  */
+        --border-ink   : #3b352a;
+        
+        --font-main    : 'Constantia', 'Palatino', 'Georgia', serif;
+    
+        --paper: #f3eee3;
+        --ink: #262626;
+        --muted: #6f6a63;
+        --line: #c8c0b2;
+        --accent: #37474f;        
+        
+   }
 

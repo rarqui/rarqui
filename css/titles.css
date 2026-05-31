@@ -1,0 +1,46 @@
+
+
+    .title-main-1{    
+        font-variant: small-caps;
+        font-size: 2.4rem;
+        margin: 0;
+        color: var(--text-main);
+        color: var(--ancient-red);
+        letter-spacing: 2px;
+     }   
+
+     
+    .title-sub-1 {
+        font-variant: small-caps;
+        font-size: 2.0rem;
+        margin: 0;
+        color: var(--text-main);
+        color: var(--ancient-red);        
+        letter-spacing: 2px;
+    }
+    
+    .title-author-1 {
+        font-variant: small-caps;
+        font-size: 1.6rem;
+        margin: 0;
+        color: var(--text-main);
+        letter-spacing: 2px;
+    }
+    
+    .title-section-1 {
+/*         font-variant: small-caps; */
+        font-size: 1.4rem;
+        margin: 0;
+        color: var(--text-main);
+/*         color: var(--ancient-red);         */
+        letter-spacing: 2px;
+    }
+        
+    .title-subsection-1 {
+/*         font-variant: small-caps; */
+        font-size: 1rem;
+        margin: 0;
+        color: var(--text-main);
+/*         color: var(--ancient-red);         */
+        letter-spacing: 2px;
+    }

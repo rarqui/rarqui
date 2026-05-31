@@ -1,0 +1,37 @@
+
+
+    .ly-container-document{
+        max-width : 1100px;
+        margin    : 0 auto;
+        border    : 1px solid rgba(0,0,0,0.05);
+        padding   : 40px;
+        box-shadow: 0 0 30px rgba(0,0,0,0.03);
+    }
+    
+
+    .ly-grid-2c {
+            display               : grid;
+            grid-template-columns : 1fr 1fr;
+            column-gap            : 60px;
+        }
+
+    .ly-grid-3c {
+            display               : grid;
+            grid-template-columns : 1fr 1fr 1fr;
+            column-gap            : 10px;
+            font-size             : .8em;
+        }
+
+
+    .ly-grid-box {
+            margin-top: .7em;
+            margin-bottom: .7em;
+        }
+        
+
+    .ly-grid-one-column{
+            grid-column: 1 / span 2;
+            margin: 10px 10% 10px 10%;
+            padding: 0px 20px;
+    }
+
