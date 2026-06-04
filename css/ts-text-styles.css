@@ -69,10 +69,19 @@
     
 
     .ts-latin {
+        font-family : "Garamond";
+        font-variant-ligatures: discretionary-ligatures;
+        -webkit-font-variant-ligatures: common-ligatures;
+        letter-spacing : .05em; 
+        font-weight : 510;
+        font-size: 110%;
         font-style: italic;
+        color: #2c2c2c;
     }
 
     .ts-english {
+        font-family: var(--font-main);
+        font-weight : 400;
         font-style: italic;
     }
 

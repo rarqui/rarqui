@@ -3,39 +3,48 @@
 
     <div class="vc-containter">
 
+        <!-- LEMA -->            
         <div class="vc-entry">
-
-            <span class="vc-lema">
-                <span id=""></span>
-            </span>
-            <span class="vc-morphosintaxis">
-            </span>
+            <span class="vc-lema" id=""></span>
+            <span class="vc-morphosintaxis"></span>
         </div> 
 
-        <div class="vc-fast-definition">
+        <!-- EXPRESIÓN -->            
+        <div class="vc-expresion" id="">
+        </div> 
+        
+        
+        <!-- ETIMOLOGÍA -->                
+        <div class="vc-etimology"></div>
+        
+        <!-- DEFINICIÓN RÁPIDA -->                
+        <div class="vc-fast-definition" >
             <span class="ts-latin"></span><span class="ts-sup"></span>.&nbsp—
         </div>
 
+        <!-- DEFINICIÓN -->        
         <div class="vc-definition">
-            <span class="ts-latin"><span class="tc-sup"></span></span>
+            <span class="ts-latin"><span class="ts-sup"></span></span>
             <span class="ts-author"></span>
         </div>
 
+        <!-- EJEMPLOS -->        
         <div class="vc-examples">
             <b>En las fuentes: En las Sagradas Escrituras:</b>
             <ul class="vc-examples-ul">
                 <li>
-                     <span class="ts-latin"></span><span class="tc-sup"></span>
-                     <span class="ts-author"></span>                     
+                    <span class="ts-latin"></span><span class="ts-sup"></span>
+                    <span class="ts-author"></span>                     
                 </li>
             </ul>
         </div>
 
+        <!-- DEFINICIONES ADICIONALES -->        
         <div class="vc-aditional-definition">
-             <span class="ts-english"></span><span class="tc-sup"></span>
+            <span class="ts-english"></span><span class="ts-sup"></span>
         </div>
         
-        
+        <!-- NOTAS NO NUMERADAS -->        
         <div class="vc-notes">
             <b>Notas:</b>
             <ul class="vc-notes-ul">
@@ -46,6 +55,7 @@
             </ul>
         </div>
         
+        <!-- NOTAS NUMERADAS -->
         <div class="vc-notes">
             <b>Notas:</b>
             <ol class="vc-notes-ol">
@@ -66,26 +76,48 @@
         margin-top          : 1.5em;
         margin-bottom       : 0em;
     }
-
-    
     
     .vc-entry{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
-        color               : var(--accent-red);
+        margin              : 0;
     }
 
     .vc-lema{
+        font-family         :"garamond";
         font-variant        : small-caps;
         font-weight         : bold;
-        font-size           : 120%;        
-        margin              : 0;
+        font-size           : 144%;        
+        color               : var(--ancient-red)
     }
 
+
     .vc-morphosintaxis{
-        margin              : 0;
+        margin-left         : 0.25em;
         font-style          : italic;
+        font-size           : 120%;
+        color               : var(--ancient-red)        
     }
+    
+
+    .vc-expresion{
+        font-family         :"garamond";
+        font-variant        : small-caps;
+        font-style          : italic;
+        font-weight         : bold;
+        font-size           : 144%;
+        color               : var(--ancient-red)
+    }
+    
+    
+    .vc-etimology{
+        margin-top          : var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
+        font-family         : var(--font-sf);
+        font-weight         : bold;
+        line-height         : 1.5;
+        color               : black;
+    }        
 
     .vc-fast-definition{
         font-style          : italic;
@@ -140,3 +172,8 @@
         list-style-type: decimal;
     }
 
+
+    .vc-etimologyn{
+        margin-top:    var(--vc-margin-top);
+        margin-bottom: var(--vc-margin-bottom);
+    }    

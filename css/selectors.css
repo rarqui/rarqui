@@ -3,7 +3,6 @@
             
         background-color : var(--bg-paper);     /* color del fondo       */
         color            : var(--text-main);    /* color de la tipografía */
-            
         font-family      : var(--font-main);
         margin           : 0;
         padding          : 20px;

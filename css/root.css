@@ -15,7 +15,8 @@
         --link-visited : var(--ancient-red); /*#123456; /* red;  */
         --border-ink   : #3b352a;
         
-        --font-main    : 'Constantia', 'Palatino', 'Georgia', serif;
+        --font-main    : 'Constantia', 'Garamond', 'Palatino', 'Georgia', serif;
+        --font-sf      : 'Montserrat', 'Poppins', 'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
     
         --paper: #f3eee3;
         --ink: #262626;
