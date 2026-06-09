@@ -3,7 +3,7 @@
 
     <div class="vc-containter">
 
-        <!-- LEMA -->            
+        <!-- ENTRY -->            
         <div class="vc-entry">
             <span class="vc-lema" id=""></span>
             <span class="vc-morphosintaxis"></span>
@@ -12,14 +12,13 @@
         <!-- EXPRESIÓN -->            
         <div class="vc-expresion" id="">
         </div> 
-        
-        
+            
         <!-- ETIMOLOGÍA -->                
         <div class="vc-etimology"></div>
         
         <!-- DEFINICIÓN RÁPIDA -->                
         <div class="vc-fast-definition" >
-            <span class="ts-latin"></span><span class="ts-sup"></span>.&nbsp—
+            <span class="ts-latin"></span><span class="ts-sup"></span>&nbsp—
         </div>
 
         <!-- DEFINICIÓN -->        
@@ -30,7 +29,7 @@
 
         <!-- EJEMPLOS -->        
         <div class="vc-examples">
-            <b>En las fuentes: En las Sagradas Escrituras:</b>
+            <b>En las fuentes:</b>
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin"></span><span class="ts-sup"></span>
@@ -39,12 +38,28 @@
             </ul>
         </div>
 
+        <!-- EJEMPLOS -->        
+        <div class="vc-examples">
+            <b>En las Sagradas Escrituras:</b>
+            <ul class="vc-examples-ul">
+                <li>
+                    <span class="ts-latin"></span><span class="ts-sup"></span>
+                    <span class="ts-author"></span>                     
+                </li>
+            </ul>
+        </div>
+        
         <!-- DEFINICIONES ADICIONALES -->        
         <div class="vc-aditional-definition">
             <span class="ts-english"></span><span class="ts-sup"></span>
+            <span class="ts-latin"></span><span class="ts-sup"></span>
         </div>
         
-        <!-- NOTAS NO NUMERADAS -->        
+        <!-- NOTA ÚNICA -->
+        <div class="vc-single-note">
+        </div>
+        
+        <!-- NOTAS MÚLTIPLES -->        
         <div class="vc-notes">
             <b>Notas:</b>
             <ul class="vc-notes-ul">
@@ -54,15 +69,15 @@
                 </li>
             </ul>
         </div>
-        
-        <!-- NOTAS NUMERADAS -->
-        <div class="vc-notes">
-            <b>Notas:</b>
-            <ol class="vc-notes-ol">
+       
+        <!-- TRADUCCIONES -->
+        <div class="vc-translations">
+            <div class="vc-translations-line"></div>
+            <ol class="vc-translations-ol">
                 <li>
                 </li>
             </ol>
-        </div>
+        </div>        
         
     </div> <!-- <div class="vc-containter"> -->
 */
@@ -71,6 +86,8 @@
         --vc-margin-top    : 0.3em;
         --vc-margin-bottom : .55em;
    }
+
+/* TIPO DE ENTRADA Y NOTAS MORFOSINTÁCTICAS */
 
     .vc-containter{
         margin-top          : 1.5em;
@@ -84,11 +101,11 @@
     }
 
     .vc-lema{
-        font-family         :"garamond";
+        font-family         : var(--font-latin);
         font-variant        : small-caps;
         font-weight         : bold;
         font-size           : 144%;        
-        color               : var(--ancient-red)
+        color               : var(--ancient-red);
     }
 
 
@@ -96,7 +113,7 @@
         margin-left         : 0.25em;
         font-style          : italic;
         font-size           : 120%;
-        color               : var(--ancient-red)        
+        color               : var(--ancient-red);      
     }
     
 
@@ -109,7 +126,6 @@
         color               : var(--ancient-red)
     }
     
-    
     .vc-etimology{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
@@ -119,40 +135,76 @@
         color               : black;
     }        
 
+/* DEFINICIONES RÁPIDAS */        
+    
     .vc-fast-definition{
         font-style          : italic;
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
-
     }
-
+    
+    .vc-fast-definition::before{
+        content             :"Uso: " ;       
+        font-weight         : bold;
+        font-style          : italic;
+    }
+    
+/* DEFINICIONES */    
+    
     .vc-definition{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
     }
 
+    .vc-definition::before{
+        content             :"Def.: " ;       
+        font-weight         : bold;
+        font-style          : italic;
+    }
+    
 
 /* EJEMPLOS */
 
     .vc-examples{
-        margin-top:    var(--vc-margin-top);
-        margin-bottom: var(--vc-margin-bottom);
+        margin-top          : var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
     }
 
     .vc-examples-ul {
-         margin-top:    .0em;
-         margin-bottom: .0em;
-         list-style-type: disc; /*circle, square, none */
+         margin-top         : .0em;
+         margin-bottom      : .0em;
+         list-style-type    : disc; /*circle, square, none */
     }
 
-/* DEFINICIONES ADICIONALES */
+/* "aditional definitions: a eliminar" */
 
     .vc-aditional-definition{
+        margin-top          :    var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
+    }
+    
+    .vc-aditional-definition::before{
+        content             :"N.: " ;       
+        font-weight         : bold;
+        font-style          : italic;
+    }
+    
+    .vc-aditional-definition::first-letter{
+        font-weight         : bold;
+    }
+
+/* NOTAS */
+
+    .vc-single-note{
         margin-top:    var(--vc-margin-top);
         margin-bottom: var(--vc-margin-bottom);
     }
 
-/* NOTAS */
+    .vc-single-note::before{
+        content             :"Nota: " ;       
+        font-weight         : bold;
+        font-style          : italic;
+    }
 
     .vc-notes{
         margin-top:    var(--vc-margin-top);
@@ -160,20 +212,40 @@
     }
 
     .vc-notes-ul {
-         margin-top:    .0em;
-         margin-bottom: .0em;
-         list-style-type: disc; /*circle, square, none */
+         margin-top         : .0em;
+         margin-bottom      : .0em;
+         list-style-type    : disc; /*circle, square, none */
     }
     
     
     .vc-notes-ol{
-        margin-top:    .0em;
-        margin-bottom: .0em;
-        list-style-type: decimal;
+        margin-top          : .0em;
+        margin-bottom       : .0em;
+        list-style-type     : decimal;
     }
 
+/* TRANSLATIONS */    
 
-    .vc-etimologyn{
+    .vc-translations{
         margin-top:    var(--vc-margin-top);
         margin-bottom: var(--vc-margin-bottom);
-    }    
+    }
+
+    .vc-translations-line{
+        width: 200px;        /* Longitud de la línea */
+        height: 1px;         /* Grosor */
+        background-color: #555;  /* Color */
+        margin: 20px;   /* Espacio arriba/abajo + centrado */
+     /* border-radius: 1px;  /* Bordes ligeramente redondeados, opcional */    
+    }
+
+    .vc-translations-ol{
+        margin-top          : .0em;
+        margin-bottom       : .0em;
+        list-style-type     : decimal;
+    }
+    
+    
+
+
+    

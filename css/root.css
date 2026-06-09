@@ -2,22 +2,31 @@
    :root {
 
         --beige-1      : #f4ede0; 
-        --beige-2      : #f3eee3;
+        --beige-2      : #f7f2e8;
+        --beige-3      : #faf7f0;
+        --beige-4      : #fcfbf7;
+        
         --ink-1        : #262626;
         --ink-2        : #1d1d1b;
+        --ink-3        : black;        
         --ancient-red  : #8b2010;
         
-        --bg-paper     : var(--beige-1);  
-        --text-main    : var(--ink-2);
+        --bg-paper     : var(--beige-4);  
+        --text-main    : var(--ink-1);
         --accent-red   : var(--ancient-red);
    
         --link         : var(--ancient-red); /*#2468AC;  blue;/**/
         --link-visited : var(--ancient-red); /*#123456; /* red;  */
         --border-ink   : #3b352a;
         
-        --font-main    : 'Constantia', 'Garamond', 'Palatino', 'Georgia', serif;
-        --font-sf      : 'Montserrat', 'Poppins', 'Nunito Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+       
+        /* Gramod, crimson" */
+        
+        --font-main    : 'Constantia', 'Palatino', 'Georgia', serif;
+        --font-sf      : 'Montserrat', 'Poppins', 'Nunito Sans', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+        --font-latin   : 'Garamond';
     
+        
         --paper: #f3eee3;
         --ink: #262626;
         --muted: #6f6a63;

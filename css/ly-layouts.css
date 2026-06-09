@@ -1,37 +1,86 @@
 
+/*
+    +- ly-container-document -----------------------------------------+
+    |                                                                 |
+    |  +- ly-grid-2c ----------------------------------------------+  |
+    |  |                                                           |  |
+    |  |  +- ly-grid-box ----------+   +- ly-grid-box ----------+  |  |
+    |  |  |  ts-label              |   |  ts-label              |  |  |
+    |  |  |  ts-label-underline    |   |  ts-label-underline    |  |  |
+    |  |  |                        |   |                        |  |  |
+    |  |  +------------------------+   +------------------------+  |  |
+    |  |  +- ly-grid-box ----------+   +- ly-grid-box ----------+  |  |
+    |  |  |  ts-text-main          |   |  ts-text-aux           |  |  |
+    |  |  |                        |   |                        |  |  |
+    |  |  +------------------------+   +------------------------+  |  |
+    |  |                                                           |  |
+    |  |      +- ly-grid-one-column ---------------------+         |  |
+    |  |      |  ts-apparatus                            |         |  |
+    |  |      |                                          |         |  |
+    |  |      |  +- nota-item ------------------------+  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  |  ts-label                          |  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  |  tag-comment                       |  |         |  |
+    |  |      |  |                                    |  |         |  |
+    |  |      |  +------------------------------------+  |         |  |
+    |  |      |                                          |         |  |
+    |  |      +------------------------------------------+         |  |
+    |  |                                                           |  |
+    |  +-----------------------------------------------------------+  |
+    |                                                                 |
+    +-----------------------------------------------------------------+
+
+    |  +- ly-grid-3c ----------------------------------------------+  |
+    |  |                                                           |  |
+    |  |  +- ly-grid-box -+  +- ly-grid-box -+  +- ly-grid-box -+  |  |
+    |  |  |               |  |               |  |               |  |  |
+    |  |  |               |  |               |  |               |  |  |
+    |  |  +---------------+  +---------------+  +---------------+  |  |
+    |  |                                                           |  |
+    |  +-----------------------------------------------------------+  |
+    |                                              |
+    +----------------------------------------------+
+
+ */
 
     .ly-container-document{
-        max-width : 1100px;
-        margin    : 0 auto;
-        border    : 1px solid rgba(0,0,0,0.05);
-        padding   : 40px;
-        box-shadow: 0 0 30px rgba(0,0,0,0.03);
+        max-width               : 1100px;
+        margin                  : 0 auto;
+        margin-top              : 5px;
+        border                  : 2px solid rgba(0,0,0,0.05);
+        padding                 : 40px;
+        box-shadow              : 0 0 130px rgba(0,0,0,0.05);
     }
-    
 
     .ly-grid-2c {
-            display               : grid;
-            grid-template-columns : 1fr 1fr;
-            column-gap            : 60px;
-        }
-
-    .ly-grid-3c {
-            display               : grid;
-            grid-template-columns : 1fr 1fr 1fr;
-            column-gap            : 10px;
-            font-size             : .8em;
-        }
-
+        display                 : grid;
+        grid-template-columns   : 1fr 1fr;
+        column-gap              : 60px;
+     }
 
     .ly-grid-box {
-            margin-top: .7em;
-            margin-bottom: .7em;
-        }
-        
+        margin-top              : .7em;
+        margin-bottom           : .7em;
+    }
 
+    .ly-grid-box::first-letter{
+        font-weight         : bold;
+    }     
+    
+    
     .ly-grid-one-column{
-            grid-column: 1 / span 2;
-            margin: 10px 10% 10px 10%;
-            padding: 0px 20px;
+        grid-column             : 1 / span 2;
+/*         margin                  : 5px 10% 10px 5%; */
+        margin                  : 5px 1rem 1rem 5%;       
+        
+        padding                 : 0px 1rem;
+    }
+
+    .ly-grid-3c {
+        display                 : grid;
+        grid-template-columns   : 1fr 1fr 1fr;
+        column-gap              : 10px;
+        font-size               : .80rem;
     }
 

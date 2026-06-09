@@ -4,6 +4,7 @@
         background-color : var(--bg-paper);     /* color del fondo       */
         color            : var(--text-main);    /* color de la tipografía */
         font-family      : var(--font-main);
+        font-size        : 18px;
         margin           : 0;
         padding          : 20px;
         line-height      : 1.6;

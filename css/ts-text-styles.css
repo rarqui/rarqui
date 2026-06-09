@@ -1,43 +1,47 @@
 
 
-
-    .ts-source{ 
-        font-size: 1.15rem;
+/*     .ts-source{  */
+    .ts-text-main { 
+        font-size: 1.28rem;
         text-align: justify;        
         font-weight: 400; 
-        color: #000; 
+        color: #000;
     }
-          
-    .ts-translatio{ 
-        font-size: 1.15rem;
+     
+     
+    .ts-text-aux{ 
+        font-size: 1.25rem;
         text-align: justify;        
-        font-style: italic; 
+        font-style: italic;  */
         color: #444; 
-        font-size: 1.15rem;
-    }
+    }    
 
     .ts-apparatus {
-            background-color: rgba(255, 255, 255, 0.4);
-            border-left: 2px solid var(--accent-red);
-            font-size: 0.95rem;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-left: 2px solid var(--accent-red);
+        font-size: 1.1rem;
+    }
+
+    .ts-sc-centered-label {
+        font-weight: bold;
+        text-align: center; 
+        color: var(--accent-red);
+        font-variant: small-caps;
+    }    
+
+    .ts-sc-label {
+        font-weight: bold;
+        color: var(--accent-red);
+        font-variant: small-caps;
     }
     
-    .ts-label {
+    
+    .label-version-c {
         font-weight: bold;
         text-align: center;
         color: var(--accent-red);
         font-variant: small-caps;
-/*        padding-bottom: 20px;
-        border-bottom: 1px double var(--accent-red);
-        margin-bottom: 30px;*/
-    }
-
-    .label-version-c {
-            font-weight: bold;
-            text-align: center;
-            color: var(--accent-red);
-            font-variant: small-caps;
-            letter-spacing: 1.5px;
+        letter-spacing: 1.5px;
     }
     
     .ts-label-underline{
@@ -47,15 +51,12 @@
         margin-bottom: 30px;
     }        
     
-    .ts-nsentence{
-        margin-right: 0px;        */
-    }
     
    .ts-nsentence{
         font-weight: bold;
-        font-size: 0.7em;
-        margin-right: 0.1em;        
-        margin-left:  0em;
+        font-size: 0.7rem;
+        margin-right: 0.1rem;        
+        margin-left:  0rem;
         color: #888;
    }
     
@@ -63,16 +64,18 @@
         color: var(--accent-red);
         font-weight: bold;
         font-size: 0.9rem;
-        margin-right: .5em;
+        margin-right: .5rem;
     }
     
-    
+    .ts-spanish {
+        font-style: normal;
+    }
 
     .ts-latin {
-        font-family : "Garamond";
+        font-family : var(--font-latin);
         font-variant-ligatures: discretionary-ligatures;
         -webkit-font-variant-ligatures: common-ligatures;
-        letter-spacing : .05em; 
+        letter-spacing : .05rem; 
         font-weight : 510;
         font-size: 110%;
         font-style: italic;
@@ -85,30 +88,33 @@
         font-style: italic;
     }
 
-    .ts-spanish {
+    .ts-phonetic {
+        font-family: monospace;
         font-style: normal;
     }
     
+    
     .ts-author{
-        font-weight         : bold;
+        font-weight         : 550;
     }    
     
     .ts-sup{
-        vertical-align      : 0.3em; /* <span class="vocabulary-sup">super;*/
-        font-size           : smaller;
+        vertical-align      : 0.3rem; /* <span class="vocabulary-sup">super;*/
+        margin-left         : 0.2rem;
+        font-size           : 0.75rem;
         font-style          : normal;
     }
     
     
     .ts-capital{
-                float: left;
-                font-family: Georgia;
-                font-size: 2em;
-                line-height: 1em;
-                padding-top: .0em;
-                padding-right: 1em;
-                padding-left: 1em;
-                color : var(--ancient-red);
+        float: left;
+        font-family: Georgia;
+        font-size: 2rem;
+        line-height: 1rem;
+        padding-top: .0rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        color : var(--ancient-red);
     }
     
     
