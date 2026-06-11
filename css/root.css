@@ -19,14 +19,16 @@
         --link-visited : var(--ancient-red); /*#123456; /* red;  */
         --border-ink   : #3b352a;
         
-       
+        --black-1      : #404040;
+        
         /* Gramod, crimson" */
         
         --font-main    : 'Constantia', 'Palatino', 'Georgia', serif;
         --font-sf      : 'Montserrat', 'Poppins', 'Nunito Sans', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
-        --font-latin   : 'Garamond';
+        --font-latin   : 'eb Garamond';
     
-        
+   
+    
         --paper: #f3eee3;
         --ink: #262626;
         --muted: #6f6a63;

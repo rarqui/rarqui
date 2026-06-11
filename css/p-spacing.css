@@ -1,0 +1,12 @@
+/* Márgenes superior e inferior para párrafos 
+   Ej:
+  
+   <dev class="p-spacing">
+ 
+ */
+/*  .p-spacing                                */
+
+    .p-spacing {
+        margin-top: .5em;
+        margin-bottom: .5em;
+    }

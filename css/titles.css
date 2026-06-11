@@ -1,7 +1,9 @@
 
 
     .title-main-1{    
-        font-variant: small-caps;
+/*         font-variant: small-caps; */
+        font-family: "Cinzel", serif;
+        font-weight:600;
         font-size: 2.4rem;
         margin: 0;
         color: var(--text-main);
@@ -11,7 +13,9 @@
 
      
     .title-sub-1 {
-        font-variant: small-caps;
+/*         font-variant: small-caps; */
+        font-family: "Cinzel", serif;
+        font-weight:500;
         font-size: 2.0rem;
         margin: 0;
         color: var(--text-main);
@@ -20,7 +24,9 @@
     }
     
     .title-author-1 {
-        font-variant: small-caps;
+/*         font-variant: small-caps; */
+        font-family: "Cinzel", serif;
+        font-weight:400;
         font-size: 1.6rem;
         margin: 0;
         color: var(--text-main);

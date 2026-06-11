@@ -64,9 +64,6 @@
         margin-bottom           : .7em;
     }
 
-    .ly-grid-box::first-letter{
-        font-weight         : bold;
-    }     
     
     
     .ly-grid-one-column{

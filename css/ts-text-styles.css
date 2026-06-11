@@ -76,8 +76,8 @@
         font-variant-ligatures: discretionary-ligatures;
         -webkit-font-variant-ligatures: common-ligatures;
         letter-spacing : .05rem; 
-        font-weight : 510;
-        font-size: 110%;
+        font-weight : 500;
+/*         font-size: 110%; */
         font-style: italic;
         color: #2c2c2c;
     }
@@ -96,6 +96,8 @@
     
     .ts-author{
         font-weight         : 550;
+        color               : var(--black-1);
+        
     }    
     
     .ts-sup{
