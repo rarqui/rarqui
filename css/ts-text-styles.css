@@ -23,10 +23,11 @@
     }
 
     .ts-sc-centered-label {
+/*         font-variant: small-caps; */
+        font-family: var(--font-title);
         font-weight: bold;
         text-align: center; 
         color: var(--accent-red);
-        font-variant: small-caps;
     }    
 
     .ts-sc-label {
@@ -109,15 +110,23 @@
     
     
     .ts-capital{
-        float: left;
-        font-family: Georgia;
-        font-size: 2rem;
-        line-height: 1rem;
-        padding-top: .0rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        color : var(--ancient-red);
+        float               : left;
+        font-family         : 'Georgia', serif;
+        font-size           : 2rem;
+        line-height         : 1rem;
+        padding-top         : .0rem;
+        padding-right       : 1rem;
+        padding-left        : 1rem;
+        color               : var(--ancient-red);
     }
     
     
+    .ts-section-title{
+        text-align          : center;
+        font-family         : var(--font-title);
+        font-weight         : 700;
+        letter-spacing      : .07rem; 
+    }
 
+    
+    

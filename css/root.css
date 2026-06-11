@@ -24,16 +24,17 @@
         /* Gramod, crimson" */
         
         --font-main    : 'Constantia', 'Palatino', 'Georgia', serif;
+        --font-title   : 'Cinzel', 'EB Garamond', serif;
         --font-sf      : 'Montserrat', 'Poppins', 'Nunito Sans', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
-        --font-latin   : 'eb Garamond';
-    
+        --font-latin   : 'eb Garamond', 'Garamond', serif;
+/*    
    
     
         --paper: #f3eee3;
         --ink: #262626;
         --muted: #6f6a63;
         --line: #c8c0b2;
-        --accent: #37474f;        
+        --accent: #37474f;        */
         
    }
 
