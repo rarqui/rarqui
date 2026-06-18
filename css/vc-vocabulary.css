@@ -9,6 +9,8 @@
 
     <div class="vc-containter">
 
+        <hr> <!-- CARD -->        
+    
         <!-- ENTRY -->            
         <div class="vc-entry">
             <span class="vc-lema" id=""></span>
@@ -60,7 +62,7 @@
             <ul class="vc-examples-ul">
                 <li>
                     <span class="ts-latin"></span><span class="ts-sup"></span>
-                    <span class="ts-author"></span>                     
+                    <span class="ts-author">&nbsp</span>                     
                 </li>
             </ul>
         </div> <!-- class="vc-examples" -->
@@ -78,6 +80,8 @@
                 <li>
                     <span class="ts-latin"></span>
                     <span class="ts-english"></span>
+                    <span class="ts-japanese"><i>文言文</i></span>:
+                    <span class="ts-japanese"><ruby><rt></rt></ruby></span>
                 </li>
             </ul>
         </div> <!-- class="vc-multiple-notes" -->
@@ -92,7 +96,7 @@
             </ol>
         </div> <!-- vclass="vc-translations"> -->
         
-    </div> <!-- class="vc-containter" -->
+    </div> <!-- class="vc-containter" -->|
 */
 
     :root {
@@ -107,6 +111,7 @@
         margin-bottom       : 1rem;
     }
     
+   
     .vc-entry{
         margin-top          : var(--vc-margin-top);
         margin-bottom       : var(--vc-margin-bottom);
@@ -163,6 +168,7 @@
         color               : orange;
     }
     
+    
 /* USO  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */       
 
     .vc-use{
@@ -171,6 +177,10 @@
         margin-bottom       : var(--vc-margin-bottom);
     }
 
+    .vc-use::first-letter {
+        font-weight         : bold;
+        color               : var(--black-1);
+    }    
 
 /* DEFINICIONES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */    
     
@@ -252,7 +262,7 @@
         color               : var(--black-1);
     }
 
-    .vc-notes{
+    .vc-notes{                  
         margin-top:    var(--vc-margin-top);
         margin-bottom: var(--vc-margin-bottom);
     }
@@ -311,7 +321,7 @@
         margin              : 20px;     /* Espacio arriba/abajo + centrado */
      /* border-radius: 1px;  /* Bordes ligeramente redondeados, opcional */    
     }
-
+   
     .vc-translations-ol{
         margin-top          : .0rem;
         margin-bottom       : .0rem;
