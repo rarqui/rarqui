@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style>
+.item {
+/*     border: 1px solid #aaa; */
+    margin-bottom: 4px;
+}
+
+.title {
+    background: #ddd;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.content.open {
+    max-height: 500px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="item">
+    <div class="title">Título 1</div>
+    <div class="content">
+        Item A<br>
+        Item B<br>
+        Item C
+    </div>
+</div>
+
+<div class="item">
+    <div class="title">Título 2</div>
+    <div class="content">
+        Item D<br>
+        Item E
+    </div>
+</div>
+
+<div class="item">
+    <div class="title">Título 3</div>
+    <div class="content">
+        Item F
+    </div>
+</div>
+
+<div class="item">
+    <div class="title">Título 4</div>
+    <div class="content">
+        Item G<br>
+        Item H
+    </div>
+</div>
+
+<script>
+
+const titles = document.querySelectorAll(".title");
+
+titles.forEach(title => {
+    title.onclick = () => {
+        const content = title.nextElementSibling;
+        const isOpen = content.style.maxHeight;
+
+        // Cerrar todos
+        document.querySelectorAll(".content").forEach(c => {
+            c.style.maxHeight = null;
+        });
+
+        // Abrir el seleccionado si estaba cerrado
+        if (!isOpen) {
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+    };
+});
+</script>
+
+</body>
+</html>
