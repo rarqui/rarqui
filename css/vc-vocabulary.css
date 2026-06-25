@@ -95,6 +95,19 @@
                 </li>
             </ol>
         </div> <!-- vclass="vc-translations"> -->
+
+        <!-- ITEMS DISC -->        
+        <div class="vc-items-disc">
+            <ul class="vc-items-disc-ul">
+                <li>
+                    <span class="ts-latin"></span>
+                    <span class="ts-english"></span>
+                    <span class="ts-japanese"><i>文言文</i></span>:
+                    <span class="ts-japanese"><ruby><rt></rt></ruby></span>
+                </li>
+            </ul>
+        </div> <!-- class="vc-items-disc" -->
+        
         
     </div> <!-- class="vc-containter" -->|
 */
@@ -329,6 +342,18 @@
     }
     
     
+/* LISTAS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */        
+    
 
+    .vc-items-disc{                  
+        margin-top:    var(--vc-margin-top);
+        margin-bottom: var(--vc-margin-bottom);
+    }
+    }
 
+    .vc-items-disc-ul {
+         margin-top         : .0rem;
+         margin-bottom      : .0rem;
+         list-style-type    : disc; /*circle, square, none */
+    }
     
