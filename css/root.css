@@ -12,14 +12,18 @@
         --ink-1        : #262626;
         --ink-2        : #1d1d1b;
         --ink-3        : black;        
+
         --ancient-red  : #8b2010;
+
+        --link-1       : #2468AC;
+        --link-2       : #123456;        
         
         --bg-paper     : var(--beige-5);  
         --text-main    : var(--ink-1);
         --accent-red   : var(--ancient-red);
    
-        --link         : var(--ancient-red); /*#2468AC;  blue;/**/
-        --link-visited : var(--ancient-red); /*#123456; /* red;  */
+        --link         : var(--link-1);
+        --link-visited : var(--link-1);
         --border-ink   : #3b352a;
         
         --black-1      : #505050;
