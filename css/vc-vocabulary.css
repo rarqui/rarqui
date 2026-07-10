@@ -20,7 +20,11 @@
         <!-- EXPRESIÓN -->            
         <div class="vc-expresion" id="">
         </div> <!-- class="vc-expresion" -->
-            
+
+        <!-- MORFOLOGIA -->                
+        <div class="vc-morfology"></div>
+        
+        
         <!-- ETIMOLOGÍA -->                
         <div class="vc-etimology"></div>
         
@@ -45,7 +49,7 @@
             </ul>
         </div> <!-- class="vc-multiple-definitions" -->
         
-        <!-- EJEMPLOS -->        
+        <!-- EJEMPLOS DE LAS FUENTES-->        
         <div class="vc-examples">
             En las fuentes:
             <ul class="vc-examples-ul">
@@ -56,7 +60,7 @@
             </ul>
         </div> <!-- class="vc-examples" -->
 
-        <!-- EJEMPLOS -->        
+        <!-- EJEMPLOS DE LAS SAGRADAS ESCRITURAS-->        
         <div class="vc-examples">
             En las Sagradas Escrituras:
             <ul class="vc-examples-ul">
@@ -109,7 +113,7 @@
         </div> <!-- class="vc-items-disc" -->
         
         
-    </div> <!-- class="vc-containter" -->|
+    </div> <!-- class="vc-containter" -->
 */
 
     :root {
@@ -133,33 +137,33 @@
 
     .vc-lema{
 /*         font-family         : var(--font-latin); */
-        font-family: "Cinzel", serif;
-        font-weight:400;
+        font-family         : "Cinzel", serif;
+        font-weight         : 400;
         font-variant        : small-caps;
         font-weight         : bold;
-        font-size           : 144%;        
+        font-size           : 1.44em;    /*144%;        */
         letter-spacing      : .05rem; 
         color               : var(--ancient-red);
     }
 
 
     .vc-morphosintaxis{
-        font-family: "Eb Garamond", serif;
-        font-weight:400;        
+        font-family         : "Eb Garamond", serif;
+        font-weight         : 400;        
         margin-left         : 0.25rem;
         font-style          : italic;
-        font-size           : 130%;
+        font-size           : 1.44rem; /*144%;*/
         letter-spacing      : .05rem;         
         color               : var(--ancient-red);      
     }
     
 
     .vc-expresion{
-        font-family         :"garamond";
+        font-family         :"Cinzel", serif;
         font-variant        : small-caps;
         font-style          : italic;
         font-weight         : bold;
-        font-size           : 144%;
+        font-size           : 1.80rem;/*124%;*/
         color               : var(--ancient-red)
     }
     
@@ -181,7 +185,14 @@
         color               : orange;
     }
     
+/* MORFOLOGÍA - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */           
     
+    .vc-morfology{
+        margin-top          : var(--vc-margin-top);
+        margin-bottom       : var(--vc-margin-bottom);
+    }    
+
+
 /* USO  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */       
 
     .vc-use{

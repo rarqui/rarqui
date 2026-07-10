@@ -23,6 +23,8 @@
         --accent-red   : var(--ancient-red);
    
         --link         : var(--link-1);
+        --link2        : var(--link-2);
+        
         --link-visited : var(--link-1);
         --border-ink   : #3b352a;
         
